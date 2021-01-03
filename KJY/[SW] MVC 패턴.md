@@ -73,3 +73,65 @@ WEB에 적용된 MVC 예시
 
 ## 4. Model 1과 Model 2
 
+#### 4-1. Model 1
+
+* 비즈니스 로직 영역(Controller)에 프레젠테이션 영역(View)를 같이 구현하는 방식
+
+* 사용자의 요청을 JSP가 전부 다 처리
+
+* ![img](https://blog.kakaocdn.net/dn/6SIUm/btqzYCsgeQE/IYkMcagYXWwMf7NSbRFJu0/img.png)
+
+  * 장점 : 빠르고 쉽게 개발할 수 있음
+
+  * 단점 : JSP 파일 자체가 너무 비대해짐, 향후 유지보수에 어려움을 겪을수 있음
+
+***
+
+
+#### 4-2. Model 2
+
+* 비즈니스 로직 영역과 프레젠테이션 영역이 분리되어 있는 구현 방식
+
+* 웹 브라우저 사용자의 요청을 Servlet이 받음
+
+* Servlet은 요청을 View로 보여줄 것인지, Model로 보내줄 것인지 정하여 전송
+
+* View는 보여주는 역할만 담당, 실질적인 기능의 부분은 Model에서 담당
+
+* ![img](https://blog.kakaocdn.net/dn/GSBZ4/btqzZdec5re/4LYL59sQl6B72Ak4tlknP0/img.png)
+
+  * 장점 : View와 Controller 분리 -> 디자이너와 개발자의 분업이 가능, 유지보수 유리
+  * 단점 : 설계에서 어려움을 겪을 수 있고, 개발 난이도가 높음
+
+
+
+## 5. 장ㆍ단점
+
+#### 5-1. 장점
+
+* 서로 분리되어 전체적인 구조에서 분업을 만들어 낼 수 있음
+
+* 유지보수성, 애플리케이션의 확장성, 유연성 증가
+
+* 중복코딩의 문제점이 사라질 수 있음
+
+#### 5-2. 단점
+
+* View와 Model이 서로 의존성을 띄게 되어 구조가 복잡해질 수 있음
+  * 한 Model은 다수의 View를 가질 수 있고 반대로 Controller를 통해 한 View에 연결되는 Model도 여러개가 될 수 있음 -> 이런 관계는 View와 Model의 의존성을 높이게 됨
+  
+  * Controller에 다수의 Model과 View가 연결되는 복잡한 상황이 유발 되는 상황이 생길 수 있음
+  
+  * MVC 규모가 복잡하고 비대해져, 새 기능을 추가할 때마다 의존성을 일일이 해결해야 하는 상황이 오게 됨 
+  
+  * **Massive View Controller**  *( MVC의 한계를 표현하는 용어 )*
+  
+    
+
+## :page_with_curl: Reference
+
+* [[MVC 패턴이란?] (Model 1, Model 2)](https://wooaoe.tistory.com/15)
+
+* [MVC 디자인 패턴](https://opentutorials.org/course/697/3828)
+
+* [MVC 패턴](https://velog.io/@ljinsk3/MVC-%ED%8C%A8%ED%84%B4)
