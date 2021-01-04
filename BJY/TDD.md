@@ -12,6 +12,16 @@
 
 ![tdd_process](C:\Users\jyb63\Desktop\취업스터디\1주차(개인)\tdd_process.jpg)
 
+### <u>TDD 개발주기</u>
+
+#### RGR 주기 (Red-Green-Refactor) 
+
+* **Red단계**에서는 <u>실패하는 테스트 코드</u>를먼저 작성한다.
+* **Green단계**에서는 <u>테스트 코드를 성공시키기 위한 실제 코드</u>를 작성한다.
+* **Yellow단계**에서는 중복 코드 제커, 일반화 등의 <u>리팩토링을 수행</u>한다.
+
+
+
 ### <u>TDD의 장단점</u> 
 
 * #### 장점
