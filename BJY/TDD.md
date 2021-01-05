@@ -16,13 +16,13 @@ eXtream Programming(XP)
 
 ### <u>TDD프로세스</u> 
 
-![tdd_process](C:\Users\jyb63\Desktop\취업스터디\1주차(개인)\tdd_process.jpg)
+![tdd_process](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\tdd_process.jpg)
 
 ### <u>TDD 개발주기</u>
 
 #### RGR 주기 (Red-Green-Refactor) 
 
-![tdd_rgr](C:\Users\jyb63\Desktop\취업스터디\1주차(개인)\tdd_rgr.jpg)
+![tdd_rgr](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\tdd_rgr.jpg)
 
 * **Red단계**에서는 <u>실패하는 테스트 코드</u>를먼저 작성한다.
 * **Green단계**에서는 <u>테스트 코드를 성공시키기 위한 실제 코드</u>를 작성한다.

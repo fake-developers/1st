@@ -6,7 +6,7 @@
 
 네트워크 프로토콜이 통신하는 구조를 7개의 계층으로 분리하여 각 계층간 상호 작동하는 방식을 정해 놓은 것으로 ISO(국제표준화기구)에서 개발한 모델이다.
 
-![OSI_7layor](C:\Users\jyb63\Desktop\취업스터디\1주차(개인)\OSI_7layer.jpg)
+![OSI_7layor](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\OSI_7layer.jpg)
 
 <br>
 
