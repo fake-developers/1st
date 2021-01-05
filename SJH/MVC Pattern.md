@@ -1,12 +1,12 @@
 # MVC 패턴
 
-- ###### 들어가기 앞서
+- #### 들어가기 앞서
 
   - 디자인 패턴이란?? 
 
-    건축의 공법에서 영감을 얻어서 생성된 방법론??
+    - 프로그램 개발에서 자주 나타나는 문제를 해결하는 방식을 이름을 붙여서 재이용하기 좋은 형태로 정리해둔 것
 
-- ###### MVC 패턴이 뭘까?
+- #### MVC 패턴이 뭘까?
 
   - 소프트웨어 공학에서 사용되는 소프트웨어 디자인 패턴 중 하나
 
@@ -16,25 +16,25 @@
 
     ![mvc](C:\Users\jungh\OneDrive\바탕 화면\1st\SJH\img\mvcpattern.PNG)
 
-  - ###### model
+  -  **model**
 
     : 뷰에 필요한 비지니스(도메인) 영역의 로직을 처리
 
-  - ###### view
+  -  **view**
 
     : 비지니스 영역에 대한 결과 화면 담당
 
-  - ###### controller
+  - **controller**
 
     : 사용자의 입력 처리와 화면의 흐름 제어(model과 view에 간섭한다.)
 
-- ###### MVC 패턴의 특징
+- #### MVC 패턴의 특징
 
   - 로직을 처리하는 모델과 출력을 처리하는 뷰가 분리되어 있다.
   - 즉, 개발자와 디자이너의 분업이 가능하다.
   - 주로 대형 프로젝트에서 쓰인다.
 
-- ###### MVC 패턴의 장점과 단점
+- #### MVC 패턴의 장점과 단점
 
   - 장점 :
 
@@ -52,28 +52,21 @@
 
   => 대안방안으로 MVP 패턴이 존재한다. 
 
-  이는,()에서 정리하도록 한다.
 
+------------
 
+##### <추가 자료>
 
-
-
-
-
-
-
-
+- MVC와 비교했을 때 MVP가 좋은 점
+  - MVP는 View와 Model을 완전히 분리하고, Presenter가 서로 간의 상호작용을 해줌으로써 서로의 영향을 최소화 시킨다.
 
 </br>
 
-<참조>
-
-- <https://www.youtube.com/watch?v=Rr6lHwzgvOI>
+##### <참조>
 
 - <https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC>
-
 - <https://bomb0730.tistory.com/19>
-
 - https://velog.io/@ljinsk3/MVC-%ED%8C%A8%ED%84%B4
 - <https://coding-factory.tistory.com/69>
+- <https://beomy.tistory.com/43>
 
