@@ -16,7 +16,7 @@
     - 최초에 서버에서 한 번  관련파일을 모두 로딩한 후, 사용자의 요청이 올 때마다 리소스를 서버에 제공하여 클라이언트가 해석하고 렌더링 하는 방식
     - SPA개발에 쉬운 Angular JS, Backbone JS와 같은 JS 프레임워크가 등장 + 이 후 클라이언트가 무거워지자 view만 관리하는 React JS 등장
 
-   ![CSR](https://user-images.githubusercontent.com/58902042/103725584-414eff00-501a-11eb-98ee-3a7a9f1f6ae7.PNG)
+    ![CSR](https://user-images.githubusercontent.com/58902042/103725584-414eff00-501a-11eb-98ee-3a7a9f1f6ae7.PNG)
 
   - **SSR이란?**
     
