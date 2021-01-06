@@ -41,7 +41,7 @@ W3C DOM 표준은 세가지 모델로 구문된다.
 
 DOM은 웹 문서의 요소를 부모 요소와 자식 요소로 구분하여 계층적 구조로 인식한다. DOM의 트리 구조는 노드와 가지로 표현한다. 노드는 웹 문서의 HTML 태그 요소만 표현 하는 것이 아니다. 모든 텍스트와 이미지, 태그의 속성들 까지 객체화 하여 DOM tree에 표현한다.
 
-![dom_tree](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\dom_tree.jpg)
+![dom_tree](https://user-images.githubusercontent.com/61674527/103727230-2088a880-501e-11eb-8df2-8e9e4d752913.jpg)
 
 #### - 문서 노드 (Document Node)
 
