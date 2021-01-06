@@ -13,7 +13,7 @@
 (참고) 할당받는 시스템 자원의 예
   - CPU 시간
   - 운영되기 위해 필요한 주소공간
-  - Code, Data, Stack, Heap의 구조로 되어 있는 독립된 메모리 영역
+  - 프로그램 실행 시 Code, Data, Stack, Heap의 구조로 되어 있는 독립된 메모리 영역을 할당 받는다.
 ~~~
 
 
@@ -118,3 +118,12 @@ CPU에서 여러 프로세스를 돌아가면서 작업을 처리하는데 이 �
 
 - 동기화 문제
 - 스레드 간의 자원 공유는 전역 변수(데이터 세그먼트)를 이용하므로 함께 상용할 때 충돌이 발생할 수 있다.
+
+
+
+
+
+### REFERENCE
+
+* <a>https://github.com/juniza82/process-thread</a>
+* <a>https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html</a>

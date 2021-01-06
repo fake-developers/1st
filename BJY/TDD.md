@@ -60,3 +60,12 @@ eXtream Programming(XP)
 1. **생산성의 저하**
    중간중간 테스트를 하면서 고쳐나가야 하기 때문에 TDD 방식의 개발 시간은 일반적인 개발 방식에 비해 대략 10~30% 정도 늘어난다.
 
+
+
+
+
+### REFERENCE
+
+* <a> https://m.blog.naver.com/suresofttech/221569611618</a>
+* <a>https://gmlwjd9405.github.io/2018/06/03/agile-tdd.html</a>
+* <a>https://wooaoe.tistory.com/33</a>

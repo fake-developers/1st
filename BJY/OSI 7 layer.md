@@ -89,3 +89,13 @@ package + bucket의 합성어.
 * 전선, 전파
 * 광섬유, 동축 케이블 ...
 
+
+
+
+
+### REFERENCE
+
+* <a>https://github.com/HyeminNoh/Tech-Stack/blob/master/docs/Network/OSI7Layers.md</a>
+* <a>https://wiseworld.tistory.com/55</a>
+* <a>http://www.hellot.net/new_hellot/magazine/magazine_read.html?code=201&idx=17723&public_date=2014-02</a>
+

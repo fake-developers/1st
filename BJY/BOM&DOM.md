@@ -72,3 +72,14 @@ DOM은 웹 문서의 요소를 부모 요소와 자식 요소로 구분하여 �
 <span>안녕</span>일 경우 텍스트 노드는 '안녕'이다.
 ~~~
 
+
+
+
+
+
+
+### REFERENCE
+
+* <a>https://velog.io/@songsong2920/DOM</a>
+* <a>https://cbw1030.tistory.com/46</a>
+
