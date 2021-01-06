@@ -10,16 +10,18 @@
 
   - 컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램이다.
 - 메모리에 올라와 실행되고 있는 프로그램의 인스턴스를 뜻한다. (독립적인 객체)
+  
   - 운영체제로부터 시스템 자원<small>(cpu, 메모리 등)</small>을 할당받는 <mark>작업</mark>의 단위이다.
 - 동적인 의미로 실행된 프로그램을 의미한다. <small>(.exe 파일 등을 클릭하여 실행시킨 상태)</small>
   
+
 <br/>
-  
+
 - 프로세스의 특징
 
   - 프로세스는 각각 독립된 메모리 영역을 할당 받는다.
 
-    <img src="process.png" height="200px" align="center">
+    <img src="resources/process.png" height="200px" align="center">
 
   - 기본적으로 프로세스당 최소 1개의 스레드를 가지고 있다.
 
@@ -41,7 +43,7 @@
     
   - 프로세스가 할당받은 자원을 이용하는 실행의 단위
     
-    <img src="thread.png" height="200px" align="center">
+    <img src="resources/thread.png" height="200px" align="center">
 
   <br/>
 
@@ -89,7 +91,7 @@
 
   ex. body 내부에 img 요소 등	
 
-  <img src="DOM.jpg" height="200px" align="center">
+  <img src="resources/DOM.jpg" height="200px" align="center">
 
   문서 (열려있는 페이지)에 대한 모든 정보를 객체화 시켜 관리한다.
 

@@ -20,7 +20,7 @@
 
 - 일반 개발 방식과의 차이
 
-  <img src="tdd.png" height="400px" align="center">
+  <img src="resources/tdd.png" height="200px" align="center">
 
   - 보통의 개발 방식은 '요구사항 분석 -> 설계 -> 개발 -> 테스트 -> 배포'의 형태를 갖는다.
     - 고객의 요구사항은 명확하지 않을 수 있다.
@@ -30,7 +30,7 @@
 
   <br/>
 
-  <img src="일반.png" height="400px" align="center">
+  <img src="resources/일반.png" height="200px" align="center">
 
   - TDD 개발방식은 선 테스트 후 코드 작성으로,
     - 테스트 도중 예외사항을 테스트 케이스에 추가하고 설계를 개선한다.

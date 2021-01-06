@@ -6,7 +6,7 @@
 
   ​	통신 구조의 모델과 프로토콜의 표준 뼈대를 제공하기 위해 개발되었다.
   
-  <img src="osi.jpg" height="400px" align="center">
+  <img src="resources/osi.jpg" height="300px" align="center">
 
 <br/>
 
