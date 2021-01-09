@@ -9,7 +9,7 @@
 - [x] [SW]TDD
 - [x] [WEB] 쿠키와 세션
 - [x] [WEB] CSR과 SSR 차이
-- [ ] [WEB] BOM과 DOM
+- [x] [WEB] BOM과 DOM
 - [ ] [Network] OSI 7계층
 - [ ] [OS] 프로세스와 쓰레드
 
