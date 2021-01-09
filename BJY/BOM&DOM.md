@@ -43,6 +43,9 @@ DOM은 웹 문서의 요소를 부모 요소와 자식 요소로 구분하여 �
 
 ![dom_tree](https://user-images.githubusercontent.com/61674527/103727230-2088a880-501e-11eb-8df2-8e9e4d752913.jpg)
 
+> **왜 트리로 짜여졌는가? **
+> 기본적으로 트리는 시간복잡도가 매우 효율적
+
 #### - 문서 노드 (Document Node)
 
 트리의 최상위에 존재하며, 하위 자식 노드에 접근하기 위해서는 Document Node를 통해야 한다. Dom tree의 접근하기 위한 시작점이다.

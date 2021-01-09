@@ -16,6 +16,23 @@
   - 프로그램 실행 시 Code, Data, Stack, Heap의 구조로 되어 있는 독립된 메모리 영역을 할당 받는다.
 ~~~
 
+~~~
+- Code 영역
+  프로세스가 실행할 코드와 매크로 상수가 기계어의 형태로 저장된 공간
+
+- Data 영역
+  코드에서 선언한 전역변수 또는 static 변수 등등이 저장된 공간
+  
+- Stack 영역
+  지역변수, 매개변수, 리턴값, 돌아올 주소 등이 저장된 공간
+  함수가 지역변수를 너무 많이 가져 stack 영역 초과 시 stack overflow 발생
+  
+- Heap 영역
+  필요에 의해 메모리를 동적 할당하고자 할 때 사용되는 공간
+  메모리 주소 값에 의해서만 참조되고 사용하는 뎡역
+  ex) C에서 malloc()로 Heap에 데이터 저장
+~~~
+
 
 
 ### <u>프로세스의 특징</u>
@@ -127,3 +144,5 @@ CPU에서 여러 프로세스를 돌아가면서 작업을 처리하는데 이 �
 
 * <a>https://github.com/juniza82/process-thread</a>
 * <a>https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html</a>
+* https://selfish-developer.com/entry/%EC%8A%A4%ED%83%9D-%ED%9E%99-%EC%BD%94%EB%93%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%98%81%EC%97%AD
+* https://recorda.tistory.com/entry/20160503%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0
