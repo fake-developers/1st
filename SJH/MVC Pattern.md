@@ -14,7 +14,8 @@
 
     <hr>
 
-    ![mvc](C:\Users\jungh\OneDrive\바탕 화면\1st\SJH\img\mvcpattern.PNG)
+    ![mvcpattern](https://user-images.githubusercontent.com/58902042/103725630-5fb4fa80-501a-11eb-9e92-99a905a7ee76.PNG)
+
 
   - **model**
 

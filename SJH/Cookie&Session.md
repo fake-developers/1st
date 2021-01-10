@@ -33,7 +33,7 @@
 
   - **쿠키**
 
-    ![cookie](C:\Users\jungh\OneDrive\바탕 화면\1st\SJH\img\cookie.PNG)
+    ![cookie](https://user-images.githubusercontent.com/58902042/103725626-5deb3700-501a-11eb-99d1-8ef38b9bad99.PNG)
 
     1. 클라이언트가 서버에 페이지 요청
 
@@ -54,7 +54,7 @@
 
   - **세션**
 
-    ![session](C:\Users\jungh\OneDrive\바탕 화면\1st\SJH\img\session.PNG)
+    ![session](https://user-images.githubusercontent.com/58902042/103725632-62175480-501a-11eb-9514-2f1f1b32087d.PNG)
 
     1. 클라언트가 서버에 페이지 요청
 
