@@ -16,13 +16,25 @@
 
     ![mvc](C:\Users\jungh\OneDrive\바탕 화면\1st\SJH\img\mvcpattern.PNG)
 
-  -  **model**
+  - **model**
 
     : 뷰에 필요한 비지니스(도메인) 영역의 로직을 처리
 
-  -  **view**
+    : DTO, DAO로 분류 가능
+
+    ~~~
+    DTO(Data Transfer Object) = VO(Value Object)
+    계층간 데이터 교환을 위한 자바빈즈.
+    DAO(Data Access Object)
+    데이터베이스의 데이터에 접근하기 위해 생성하는 객체.
+    데이터베이스에 접근하기 위한 로직과 비즈니스 로직을 분리하기 위해 사용함.
+    ~~~
+
+  - **view**
 
     : 비지니스 영역에 대한 결과 화면 담당
+
+    : 도메인의 상태를 따로 저장하고 관리하는 클래스 변수 또는 인스턴스 변수가 있을 필요 없음
 
   - **controller**
 
