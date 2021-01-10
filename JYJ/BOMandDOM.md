@@ -1,5 +1,11 @@
 # BOM과 DOM
 
+:writing_hand: *Assembled by Yunju Jang*
+
+🤝*Contributors : Jiye Bae*
+
+<hr>
+
 - Object Model 이란?
 
   ​	웹 브라우저의 구성요소들은 객체화되어 있다. 
@@ -32,7 +38,7 @@
     - history : 현재의 브라우저가 접근했던 URL history를 보여준다.
     - screen : 브라우저의 외부 환경에 대한 정보를 제공한다.
 
-  <br/>
+  <br/><br/>
 
 - DOM 정의
 
@@ -46,7 +52,25 @@
 
   ​	문서 (열려있는 페이지)에 대한 모든 정보를 객체화 시켜 관리한다.
 
-<br/>
+<br/><br/>
+
+- DOM tree 구조
+
+  <img src="resources/domtree.jpg" height="400px" align="center">
+
+  - 웹 문서의 요소를 계층적 구조로 인식하는 DOM 구조는 노드와 가지로 표현한다.
+    - 문서 노드 (Document Node) : 최상위 노드로, 하위 노드에 접근하기 위해 거친다.
+    - 요소 노드 (Element Node) : 웹 문서의 태그, 자식 노드 (attribute node, text node) 를 변경하여 웹 페이지를 동적으로 조작할 수 있다.
+    - 속성 노드 (Attribute Node) : 태그의 모든 속성에 해당한다.
+    - 텍스트 노드 (Text Node) : 태그 내 텍스트를 표현한다.
+
+  <br/>
+
+  - 모든 텍스트와 이미지, 태그의 속성들까지 객체화하여 표현한다.
+
+  <br/>
+
+  <br/>
 
 - DOM의 역할
 
@@ -55,7 +79,23 @@
 
 <br/>
 
-### Reference
+<br/>
+
+## 예상질문❔
+
+Q1) BOM이란 무엇인가?
+
+A1) 브라우저에 관련된 내용들을 객체화하여 가지고 있는 객체의 집합이다.
+
+<br/>
+
+Q2) DOM이란 무엇인가?
+
+A2) 브라우저가 웹 문서를 이해할 수 있도록 해당 페이지 안의 문서 내용을 트리 구조로 구성한 객체의 집합이다.
+
+<br/>
+
+### Reference📖
 
 - https://velog.io/@songsong2920/DOM
 - https://kevinthegrey.tistory.com/14
