@@ -14,3 +14,13 @@
 - [x] [[OS] 프로세스와 쓰레드](./%5BOS%5D%20프로세스와%20쓰레드.md)
 
 <br/>
+
+## 2주차
+
+- [ ] [WEB] Spring과 Spring Boot 차이
+- [ ] [JAVA] 자바 언어 동작 원리
+- [ ] [NETWORK] HTTP와 HTTPS
+- [ ] [SW] Singleton 패턴
+
+<br/>
+
