@@ -20,7 +20,7 @@
 - [x] [WEB] Spring과 Spring Boot 차이
 - [x] [JAVA] 자바 언어 동작 원리
 - [x] [NETWORK] HTTP와 HTTPS
-- [ ] [SW] Singleton 패턴
+- [x] [SW] Singleton 패턴
 
 <br/>
 
