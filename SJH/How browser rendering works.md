@@ -53,11 +53,13 @@
   
     - 요청한 콘텐츠 표시
   
+    - W3C명세에 따하 해석
+  
     - html요청이 들어오면 html, css를 파싱하여 화면에 표시
   
       ~~~
       - 파싱이란?
-       :프로그램을 컴파일하는 과정에서 특정 프로그래밍 언어가 제시하는 문법을 잘 지켜 	작성하였는지를 컴파일러가 검사하는 것
+       :프로그램을 컴파일하는 과정에서 특정 프로그래밍 언어가 제시하는 문법을 잘 지켜 작성하였는지를 컴파일러가 검사하는 것
       ~~~
   
       
@@ -96,9 +98,50 @@
 
 - #### <u>렌더링 엔진</u>
 
-  - 
+  - 요청받은 내용을 브라우저 화면에 표시하는 역할
 
+  - **렌더링 동작 과정**
 
+    ![Rendering](https://user-images.githubusercontent.com/58902042/104292313-05c3a180-5500-11eb-8f28-acb90d1cb27a.png)
+
+    1. DOM Tree 생성
+    2. CSSOM 생성
+    3. Render Trre(DOM + CSSOM) 생성
+    4. Render Tree 배치
+    5. Render Tree 그리기
+
+- #### <u>Parsing</u>
+
+  - 브라우저가 코드를 이해하고 사용할 수 있는 구조로 변환하는 것
+  - 파싱 결과는 보통 문서 구조를 나타내는 Node Tree
+  - 어휘 분석과 구문 분석 과정을 통해 파싱 트리를 구축
+
+  <img src="https://user-images.githubusercontent.com/58902042/104293078-ef6a1580-5500-11eb-8119-c6ebe39c7136.png" height=300>
+
+- #### <u>DOM Tree</u>
+
+  - HTML의 내용과 속성을 Node로 갖고 각 Node의 관계를 나타내는 트리
+
+  - 문서 마크업의 속성과 관계를 포함한다.
+
+  - DOM은 마크업과 1:1관계를 맺는다.
+
+    <img src="https://user-images.githubusercontent.com/58902042/104293974-fe04fc80-5501-11eb-854a-2cf63eef5952.png" weight =200 height=150>
+
+    ![image](https://user-images.githubusercontent.com/58902042/104294105-24c33300-5502-11eb-95f3-750d4d17a668.png)
+
+- #### <u>CCSSOM Tree</u>
+
+  - DOM 생성과 마찬가지로 태그들을 토큰환, 토큰을 Node로 변환하여 CSSOM으로 변환
+  - 브라우저가 모든 CSS를 파싱하고 처리할때까지 페이지가 화면에 그려지지 않는다.
+
+- #### <u>Render Tree</u>
+
+  - DOM+CSSOM, DOM의 Node에 일치하는 CSSOM규칙을 찾아 연결
+  - 페이지를 렌더링하는 필요한 시각적인 Node만 포함한다.
+    - 렌더러가 DOM요소에 부합하지만 1:1로 대응하는 것은 아니다.
+    - 예를 들어<head>요소와 같은 비시각적인 DOM은 렌더 트리에 추가되지 않는다.
+    - 또한 `display: none`스타일이 지정된 노드도 제외된다.
 
 <br>
 

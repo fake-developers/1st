@@ -7,15 +7,138 @@
 
 - #### 리액트(React)
 
-  - 리액트는 특이하게 프레임 워크가 아닌 라이브러리로 불린다.
+  - 웹/앱의 view를 개발할 수 있도록 하는 라이브러리
+
+  - 다른 프레임 워크에는 기본적으로 내장되어 있는 기능들이 없기에 추가적인 여러 라이브러리가 필요하다.
+
+  - **리액트 특징**
+
+    - 선언형 성격을 가진다.
+
+    - 컴포넌트 기반으로 재사용성이 뛰어나다
+
+    - Virtual DOM(가상돔)기반으로 가볍다.
+
+    - React컴포넌트는 state와 props<small>(단방향 데이터 바인딩)</small>를 가진다.
+      
+      > **<선언형>**
+      >
+      >  - 목표를 명시하는 방식
+      >
+      >  - 리액트는 선언형 성격에 맞게 컴포넌트를 얻기 위해 jsx 문법을 구현한다.
+      >
+      >  - 이 특성을 통해, 리액트를 사용할 때 화면 설계에만 초점을 맞춰 개발할 수 있게 해주므로, 다른 부분에 대한 고민을 최소화 => 높은 생산성을 보장 한다.
+      >
+      >    ~~~
+      >    <jsx란?>
+      >    - JavaScript를 확장한 문법
+      >    - 기존의 HTML과 JavaScript를 따로 작성하던 방식과 달리 하나의 파일에 마크업과 로직을 동시에 작성 가능
+      >    ~~~
+      >
+      > **<컴포넌트>**
+      >
+      >  - 정의 : 프로그래밍의 한 부분을 의미하며 재사용이 가능한 최소 단위
+      >
+      >  - 컴포넌트는 구현, 명세화, 패키지화, 그리고 배포 될 수 있어야 한다.
+      >
+      >  - 리액트로 작성된 화면은 컴포넌트만으로 구성되어 다른 화면에서 다시 쓰거나 다른 프로젝트에서 다시 쓰일 수 있다.
+      >
+      >    ![component](https://user-images.githubusercontent.com/58902042/104279051-0272ea80-54ed-11eb-85cd-24d259d2c064.PNG)
+      >
+      > **\<Virtual DOM>**
+      >
+      > - 특정 돔 요소를 추가하거나 삭제하는 변경이 일어날 때 화면 전체를 다시 그리지 않고 프레임워크에서 정의한 방식에 따라 화면 갱신
+      >
+      >   ~~~
+      >   <실제 DOM>
+      >   변화가 바로 반영되어 하나의 동작마다 DOM트리가 변경되어 브라우저 렌더링 과정이 매번일어나 브라우저 동작에 많은 리소스 사용
+      >   ~~~
+      >
+      >   
+      >
+      > **<state & props>**
+      >
+      > - UI가 사용자의 동작에 따라 다른 UI나 Action이 필요하여 리액트 내부적으로 state와 props를 가진다.
+      >
+      > - **state** 
+      >   - 컴포넌트 내부에서 값을 저장하거나 변경할 수 있는 객체
+      >   - 컴포넌트위 상태를 관리 할 수 있다.
+      >   - 주로 버튼을 클릭하거나 값을 입력하는 등의 이벤트와 함께 사용된다.
+      > - **props **
+      >   - 상위 컴포넌트에서 하위 컴포넌트로 값을 전달할 때 사용하는 읽기 전용 데이터
+      >   - 프로퍼티 값은 수정할 수 없다.
+      >   - Attribute의 형태로 전달된다.
 
 - #### 뷰(Vue)
 
+  - 웹 페이지 화면을 개발하기 위한 프론트엔드 프레임워크
+
+  - 화면단 라이브러리이자 프레임워크라고 볼 수 있다.
+
+  - 점진적 프레임워크
+
+    - 다른 단일형 프레임워크와 달리, 점진적으로 채택할 수 있도록 설계
+    - 뷰 코어 라이브러리는 화면단 데이터 표현에 관한 기능들을 중점적으로 지원
+    - 프레임워크의 기능인 라우터, 상태 관리, 테스팅 등을 쉽게 결합할 수 있는 형태로도 제공
+
+  - **특징**
+
+    - UI 화면단 라이브러리
+
+      `+) Vue는 UI화면 개발 방법 중 하나인 MVVM패턴의 뷰 모델에 해달하는 화면단 라이브러리 이다.`
+
+    - 컴포넌트 기반 프레임워크<small>(재사용성이 뛰어남)</small>
+
+    - 앵귤러의 양방향 데이터 바인딩 + 리액트의 단방향 데이터 바인딩이 장점을 모두 결합한 프레임워크
+
+    - Virtual DOM 렌더링 방식 사용
+
+      >**<MVVM패턴>**
+      >
+      >- 화면을 모델 - 뷰 - 뷰 모델로 구조화 하여 개발하는 방식
+      >
+      >![Viewmodel](https://user-images.githubusercontent.com/58902042/104279108-1b7b9b80-54ed-11eb-81aa-aed7bc8d39b6.PNG)
+
 - #### 앵귤러(Angular)
 
+  - 프론트엔드 개발을 위한 자바스크립트 프레임워크
 
+  - **특징**
 
+    - 양방향 데이터 바인딩
 
+    - 컴포넌트 기반의 구조
+
+    - 타입스크립트 기반의 언어
+
+    - Angular CLI를 통해 간편한 개발 환경 구축 지원
+
+      >**\<양방향 데이터 바인딩>**
+      >
+      >- 화면에 표시되는 값과 프레임워크의 모델 데이터 값이 동기화되어 한쪽이 변경되면 다른 한쪽도 자동으로 변경되는 것
+      >
+      >**\<TypeScript>**
+      >
+      >- JavaScript의 상위집합 언어
+      >- 대규모 개발에 적합한 정적 타입과 인터페이스, 제네릭 등 타입 체크 지원 기능을 제공한다.
+      >
+      >**\<Angular CLI>**
+      >
+      >- 앵귤러를 위한 command line interface
+      >- 간단한 명령어를 통해 Angular 프로젝트 스캐폴딩을 생성, 실행, 빌드, 다양한 구성요소를 선별적으로 추가할 수 있게 실행해주는 것
+
+- #### 리액트 vs 뷰 vs 앵귤러
+
+  -  SPA(Single Page Application)개발을 위한 자바스크립트 프레임워크
+
+    |              | 리액트      | 뷰             | 앵귤러   |
+    | ------------ | ----------- | -------------- | -------- |
+    | company      | 페이스북    | Evan You(개인) | 구글     |
+    | code(문법)   | TypeScript  | 템플릿 문법    | JS & JSX |
+    | DOM          | Virtual DOM | Virtual DOM    | Real DOM |
+    | Data Binding | 단방향      | 단방향, 양방향 | 양방향   |
+
+    
 
 <br>
 
@@ -24,13 +147,11 @@
 <참조>
 
 - [JAVA Script 기반 프레임워크](https://sungks.tistory.com/185?category=1015821)
-- [자바 스크립트 관련 개발 프레임워크 종류 및 소개](https://sungks.tistory.com/189?category=1015821)
-- https://velog.io/@jinsk9268/React-%EB%9E%80
-- 리액트란 무엇인가?https://medium.com/react-native-seoul/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28
-
-- 리액트2https://hogni.tistory.com/139
-
-- 뷰1https://k39335.tistory.com/60
-
-- 뷰2https://2dongdong.tistory.com/38
-- 앵귤러1https://paperblock.tistory.com/52
+- [리액트vs 뷰](https://library.gabia.com/contents/infrahosting/8284/)
+- [프론트엔드 프레임워크 비교하기](https://wickies.tistory.com/120)
+- [리액트vs앵귤러](https://www.popit.kr/%EB%B2%88%EC%97%AD%EA%B8%80-react-vs-angular-%EB%91%98-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%B4-%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EC%95%8C%EB%A7%9E/)
+- [리액트를 처음부터 배워보자](https://medium.com/react-native-seoul/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
+- [리액트 시작하기](https://hogni.tistory.com/139)
+- http://wiki.plateer.com/pages/viewpage.action?pageId=8553032
+- [뷰란 무엇인가?](https://k39335.tistory.com/60)
+- [Angular 특징](http://wiki.sys4u.co.kr/pages/viewpage.action?pageId=8552774)
