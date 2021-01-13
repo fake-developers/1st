@@ -22,7 +22,7 @@
 
 **--> 가상환경을 만들어서 테스트하고 그 때와 똑같은 환경을 시스템 엔지니어가 가서 구축한다.**
 
-![()](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\docker_vm.jpg)
+![docker_vm](https://user-images.githubusercontent.com/61674527/104439144-20ffe100-55d4-11eb-841e-8c6a012b47ed.jpg)
 
 **도커(Docker)는 배포에 VM은 환경 테스팅에 초점이 맞춰져있다.**
 

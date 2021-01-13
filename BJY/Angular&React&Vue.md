@@ -96,7 +96,7 @@ Props & State
 - state : 컴포넌트 자기 자신이 가지고 있는 값이다. setState()로 값 변경 가능
 ~~~
 
-<img width="400" src="C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\props_state.jpg">
+<img width="400" src="https://user-images.githubusercontent.com/61674527/104439292-4bea3500-55d4-11eb-81fc-8aa47ed0e273.jpg">
 
 ~~~
 Virtual DOM
@@ -147,7 +147,7 @@ MVVM : 모델(Model)-뷰(View)-뷰 모델(View Model)
 뷰 모델(View Model) : 뷰와 모델의 중간 영역
 ~~~
 
-![](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\mvvm.jpg)
+![mvvm](https://user-images.githubusercontent.com/61674527/104439376-60c6c880-55d4-11eb-978d-e45916821ffd.jpg)
 
 #### <u>장점</u>
 
