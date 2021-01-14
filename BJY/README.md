@@ -20,6 +20,6 @@
 ## 2주차
 
 - [x] [도커란](./Docker.md)
-- [x] [자바스크립트 언어 동작 원리](./자바스크립트의 동작원리.md)
-- [x] [브라우저 동작 과정](./브라우저 동작과정.md)
+- [x] [자바스크립트 언어 동작 원리](./How JavaScript Works.md)
+- [x] [브라우저 동작 과정](./Browser Working Process.md)
 - [x] [앵귤러,리액트,뷰](./Angular&React&Vue.md)
