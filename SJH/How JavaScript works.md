@@ -65,41 +65,40 @@
 
 >- ### 자바스크립트 엔진
 >
-> - JavaScript로 작성한 코드를 해석하고 실행하는 인터프리터
+>   - JavaScript로 작성한 코드를 해석하고 실행하는 인터프리터
 >   
 >   - ex. V8
 >
->​											<img src = "https://user-images.githubusercontent.com/58902042/104337354-bea5d280-5538-11eb-95a1-66e502815913.PNG" height=300 width=300>
+>       <img src = "https://user-images.githubusercontent.com/58902042/104337354-bea5d280-5538-11eb-95a1-66e502815913.PNG" height=300 width=300>
 >
->- **자바스크립트 엔진 구성요소**
+>   - **자바스크립트 엔진 구성요소**
 >
->  - Memory Heap : 메모리 할당이 일어나는 곳
+>     - Memory Heap : 메모리 할당이 일어나는 곳
 >
->  - Call Stack : 호출 스택이 쌓이는 곳
->
->​    
+>     - Call Stack : 호출 스택이 쌓이는 곳
 >
 >
->- **자바스크립트 엔진의 구동방식**
 >
->![JS Engine](https://user-images.githubusercontent.com/58902042/104334094-4ee21880-5535-11eb-8ccb-c6bd59f200e4.PNG)
 >
->1. 자바스크립트 소스코드를 가져와 Parser에게 넘긴다.
+>   - **자바스크립트 엔진의 구동방식**
 >
->2. Parser는 파싱을 통해 AST(Abstract Syntax Tree)로 변환시킨다.
+>     ![JS Engine](https://user-images.githubusercontent.com/58902042/104334094-4ee21880-5535-11eb-8ccb-c6bd59f200e4.PNG)
 >
->3. AST를 인터프리터(lgnition)를 통해 byte code로 변환하여 실행한다.
+>     1. 자바스크립트 소스코드를 가져와 Parser에게 넘긴다.
 >
->4. 그 동안, 프로파일러는 입력받은 코드에서 최적화할 수 있는 >부분을 찾아 기록한다.
+>     2. Parser는 파싱을 통해 AST(Abstract Syntax Tree)로 변환시킨다.
 >
->5. 최적화한 코드를 수행할 차례가 다가오면, byte code >대신 컴파일러가 변환한 Optimized code로 수행한다.
+>     3. AST를 인터프리터(lgnition)를 통해 byte code로 변환하여 실행한다.
 >
->    ~~~
->    <Parser>
->    : 코드의 의미를 이해하기 위해 token이라는 작은 단위들로 코드를 쪼개는 일
->    <AST>
->    : Parsser에서 분해된 token들을 기반으로 트리구조 생성
->    ~~~
+>     4. 그 동안, 프로파일러는 입력받은 코드에서 최적화할 수 있는 >부분을 찾아 기록한다.
+>
+>     5. 최적화한 코드를 수행할 차례가 다가오면, byte code >대신 컴파일러가 변환한 Optimized code로 수행한다.
+>      ~~~
+>       <Parser>
+>       : 코드의 의미를 이해하기 위해 token이라는 작은 단위들로 코드를 쪼개는 일
+>       <AST>
+>       : Parsser에서 분해된 token들을 기반으로 트리구조 생성
+>      ~~~
 
 
 
