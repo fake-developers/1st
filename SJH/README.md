@@ -17,8 +17,8 @@
 ## 2주차
 
 - [도커란](./Doker.md)
-- [자바스크립트 언어 동작 원리](./How JavaScript works.md)
-- [브라우저 동작 과정](./How browser rendering works.md)
+- [자바스크립트 언어 동작 원리](./HowJavaScriptworks.md)
+- [브라우저 동작 과정](./Howbrowserrenderingworks.md)
 - [리액트, 뷰, 앵귤러](./React&Vue&Angular.md)
 
 <br/>
