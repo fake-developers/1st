@@ -17,10 +17,10 @@
 
 ## 2주차
 
-- [x] [WEB] Spring과 Spring Boot 차이(./%5BWEB%5D%20Spring과%20Spring%20Boot%20차이.md)
-- [x] [JAVA] 자바 언어 동작 원리(./%5BJAVA%5D%20자바%20언어%20동작%20원리.md)
-- [x] [NETWORK] HTTP와 HTTPS(./%5BNETWORK%5D%20HTTP와%20HTTPS.md)
-- [x] [SW] Singleton 패턴(./%5BSW%5D%20Singleton%20패턴.md)
+- [x] [[WEB] Spring과 Spring Boot 차이](./%5BWEB%5D%20Spring과%20Spring%20Boot%20차이.md)
+- [x] [[JAVA] 자바 언어 동작 원리](./%5BJAVA%5D%20자바%20언어%20동작%20원리.md)
+- [x] [[NETWORK] HTTP와 HTTPS](./%5BNETWORK%5D%20HTTP와%20HTTPS.md)
+- [x] [[SW] Singleton 패턴](./%5BSW%5D%20Singleton%20패턴.md)
 
 <br/>
 
