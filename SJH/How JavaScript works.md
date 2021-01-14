@@ -58,7 +58,7 @@
   
     <small>이미지를 클릭해야 끝까지 움직입니다.</small>
   
-  ![runtime](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdd1dcM%2FbtqKMOtNjTd%2FrvlcflUHVxvLncUJ8dNAp1%2Fimg.gif)
+  ![runtime](https://beomy.github.io/assets/img/posts/javascript/javascript_runtime_settimeout.gif)
   
 
 <br>
