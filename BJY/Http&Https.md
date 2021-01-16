@@ -36,7 +36,7 @@ HTTP + S (Secure Socket)으로 기본 골격이나 사용 목적 등은 HTTP와 
 
   * 개인키 : 나만 가지고 알고 있어야 하는 키
 
-    ![](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\공개키&개인키.jpg)
+    ![공개키 개인키](https://user-images.githubusercontent.com/61674527/104820520-83790b80-5878-11eb-9a10-d50b0a3e904f.jpg)
 
   * 공개키 암호화 : 개인키로만 복호화 할 수 있음
 
@@ -52,7 +52,7 @@ HTTP + S (Secure Socket)으로 기본 골격이나 사용 목적 등은 HTTP와 
 
 * 인증서 발급
 
-  <img width="450" src="C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\https_process.jpg">
+  <img width="450" src="https://user-images.githubusercontent.com/61674527/104820528-925fbe00-5878-11eb-8191-464dc7f71a19.jpg">
 
   1. 인터넷 사이트는 자신의 정보와 공개키를 인증기관에 제출
   2. 인증기관은 제출된 데이터 검증 절차를 거쳐 개인키로 사이트에서 제출한 정보를 암호화, 인증서 발급
@@ -60,7 +60,7 @@ HTTP + S (Secure Socket)으로 기본 골격이나 사용 목적 등은 HTTP와 
 
 * 사용자의 사이트 접속
 
-  <img width="450" src="C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\https_process2.jpg"> <img width="450" src="C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\https_process3.jpg"> 
+  <img width="450" src="https://user-images.githubusercontent.com/61674527/104820530-a1467080-5878-11eb-93b1-91558867204e.jpg"> <img width="450" src="https://user-images.githubusercontent.com/61674527/104820538-b4f1d700-5878-11eb-9b3d-29cadcbf30a9.jpg"> 
 
   1. 사용자가 사이트에 접속하면, 자신의 인증서를 웹 브라우저에게 보낸다.
 

@@ -38,6 +38,8 @@ DOM, Ajax, setTimeout과 같이 브라우저에 제공하는 API들을 Web API�
 >
 > setTimeout() : 일정 시간 후에 특정 코드, 함수를 의도적으로 지연한 뒤 실행하고 싶을 때 사용
 
+![runtime](https://user-images.githubusercontent.com/61674527/104820868-364a6900-587b-11eb-8c8e-8f423625d204.gif)
+
 <br>
 
 ### <u>호출 스택(Call Stack)</u>
@@ -81,8 +83,6 @@ Task Queue의 첫번째 콜백을 Call Stack으로 밀어넣는다.
 
 <br>
 
-<br>
-
 ***
 
 <em>자바스크립트는 싱글 스레드 프로그래밍 언어라 한번에 하나의 작업만 수행한다. 하지만 Web API, TaskQueue, EventLoop 덕분에 멀티 스레드처럼 실행하듯 보여진다.</em>
@@ -100,4 +100,5 @@ Task Queue의 첫번째 콜백을 Call Stack으로 밀어넣는다.
 * https://coding-factory.tistory.com/143
 * https://medium.com/humanscape-tech/javascript-%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%EB%A5%BC-%EC%82%B4%ED%8E%B4%EB%B4%85%EC%8B%9C%EB%8B%A4-aef465c9c43
 * https://velog.io/@ksh4820/Event-Loop
+* https://github.com/fake-developers/1st/blob/SJH-02/SJH/How%20JavaScript%20works.md
 

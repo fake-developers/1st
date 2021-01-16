@@ -2,6 +2,17 @@
 
 <br>
 
+### <u>웹 애플리케이션 구동 과정</u>
+
+1. URL Entered : 사용자가 웹 브라우저에서 사이트 주소 입력
+2. DNS Lookup : DNS를 이용하여 사이트 주소에 해당되는 Server IP 접근
+3. Socket Connection : Client(브라우저)와 Server 간 접속을 위한 TCP 소켓 연결
+4. HTTP Request : Client 에서 HTTP Header와 데이터가 서버로 전송
+5. Content Download : 해당 요청이 Server에 도달하면 사용자가 원하는 문서를 다시 웹 브라우저에 전송
+6. Browser Rendering : 웹 브라우저의 렌더링 엔진에서 해당 문서를  파싱
+
+<br>
+
 ###  <u>브라우저 주요 기능</u>
 
 사용자가 선택한 자원을 서버에 요청하고 받아 화면에 표시
@@ -11,17 +22,6 @@
 - 북마크(즐겨찾기)
 - 새로고침 버튼
 - 홈버튼
-
-<br>
-
-### <u>웹 애플리케이션 구동 과정</u>
-
-1. URL Entered : 사용자가 웹 브라우저에서 사이트 주소 입력
-2. DNS Lookup : DNS를 이용하여 사이트 주소에 해당되는 Server IP 접근
-3. Socket Connection : Client(브라우저)와 Server 간 접속을 위한 TCP 소켓 연결
-4. HTTP Request : Client 에서 HTTP Header와 데이터가 서버로 전송
-5. Content Download : 해당 요청이 Server에 도달하면 사용자가 원하는 문서를 다시 웹 브라우저에 전송
-6. Browser Rendering : 웹 브라우저의 렌더링 엔진에서 해당 문서를  파싱
 
 <br>
 
@@ -78,7 +78,16 @@ DOM의 Node에 일치하는 CSSOM 규칙을 찾아 연결.
 
 ![webkit](https://user-images.githubusercontent.com/61674527/104438926-e5fdad80-55d3-11eb-8244-93d647882ab6.jpg)
 
+####  <u>브라우저의 동작 과정</u>
 
+사용자가 선택한 자원을 해석하여 브라우저 화면에 띄우기까지의 과정
+
+1. 브라우저가 서버로부터 HTML, CSS, JS, 이미지 파일등을 응답받는다.
+2. HTML, CSS 파일이 렌더링 엔진의 HTML 파서와 CSS 파서에 의해 파싱된다.
+3. 파싱된 파일들이 DOM, CSSOM 트리로 변환되고 렌더 트리로 결합된다.
+4. 이렇게 생성된 렌더 트리를 기반으로 브라우저가 웹페이지를 표시한다.
+
+<br/>
 
 ### <u>파싱</u>
 
@@ -104,4 +113,5 @@ DOM의 Node에 일치하는 CSSOM 규칙을 찾아 연결.
 
 * https://yilpe93.github.io/Web/browser/
 * https://kim6394.tistory.com/217#recentEntries
+* https://github.com/fake-developers/1st/blob/SJH-02/SJH/How%20browser%20rendering%20works.md
 

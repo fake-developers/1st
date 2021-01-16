@@ -20,7 +20,7 @@
 
 **Flow(흐름)에 대한 제어 권한이 누구에게/어디에 있는가**
 
-![](C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\framework_library.jpg)
+![framework_library](https://user-images.githubusercontent.com/61674527/104820503-5c223e80-5878-11eb-9790-7fb1f0a5bb8d.jpg)
 
 <br>
 
