@@ -1,5 +1,3 @@
-
-
 # [Docker] Docker
 
 :writing_hand: *Assembled by JiYoung-Kwon (2021-01-16)* 
