@@ -21,6 +21,10 @@
 - [x] [JAVA] 자바 언어 동작 원리
 - [x] [NETWORK] HTTP와 HTTPS
 - [x] [SW] Singleton 패턴
+- [x] [DOCKER] Docker란
+- [ ] [JAVASCRIPT] 자바스크립트 언어 동작 원리
+- [ ] [WEB] 브라우저 동작 과정
+- [ ] [WEB] 리액트, 뷰, 앵귤러
 
 <br/>
 
