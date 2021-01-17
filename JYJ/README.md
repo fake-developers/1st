@@ -24,7 +24,7 @@
 - [x] [[Network]HTTP와 HTTPS](./HttpAndHttps.md)
 - [x] [[SW]싱글톤 패턴](./Singleton.md)
 
-- [ ] [[SW]Docker](./Docker.md)
-- [ ] [[JS]자바스크립트 언어의 동작 원리](./JsOperation.md)
-- [ ] [[WEB]브라우저 동작 과정](./BrowserOperation.md)
-- [ ] [[WEB]React, Vue, Angular](./ReactVueAngular.md)
+- [x] [[SW]Docker](./Docker.md)
+- [x] [[WEB]자바스크립트 언어의 동작 원리](./JsOperation.md)
+- [x] [[WEB]브라우저 동작 과정](./BrowserOperation.md)
+- [x] [[WEB]React, Vue, Angular](./ReactVueAngular.md)
