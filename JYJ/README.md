@@ -19,8 +19,12 @@
 
 ## 2주차
 
-- [x] [스프링과 스프링부트의 차이](./SpringAndSpringBoot.md)
-- [x] [자바 언어의 동작 원리](./JavaOperation.md)
-- [x] [HTTP와 HTTPS](./HttpAndHttps.md)
-- [x] [싱글톤 패턴](./Singleton.md)
+- [x] [[WEB]스프링과 스프링부트의 차이](./SpringAndSpringBoot.md)
+- [x] [[Java]자바 언어의 동작 원리](./JavaOperation.md)
+- [x] [[Network]HTTP와 HTTPS](./HttpAndHttps.md)
+- [x] [[SW]싱글톤 패턴](./Singleton.md)
 
+- [ ] [[SW]Docker](./Docker.md)
+- [ ] [[JS]자바스크립트 언어의 동작 원리](./JsOperation.md)
+- [ ] [[WEB]브라우저 동작 과정](./BrowserOperation.md)
+- [ ] [[WEB]React, Vue, Angular](./ReactVueAngular.md)
