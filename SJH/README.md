@@ -20,10 +20,10 @@
 - [[WEB] 자바스크립트 언어 동작 원리](./How%20JavaScript%20works.md)
 - [[WEB] 브라우저 동작 과정](./How%20browser%20rendering%20works.md)
 - [[WEB] 리액트, 뷰, 앵귤러](./React&Vue&Angular.md)
-- [[WEB] Spring과 Spring Boot 차이]
-- [Java] 자바 언어 동작과 원리 
-- [[NET] HTTP와 HTTPS]
-- [[SW] Singleton 패턴]
+- [[WEB] Spring과 Spring Boot 차이](./Spring&Spring%20Boot%20Difference.md)
+- [[Java] 자바 언어 동작과 원리](./Java%20Logic.md)
+- [[NET] HTTP와 HTTPS](./HTTP&HTTPS.md)
+- [[SW] Singleton 패턴](./Singleton%20Pattern.md)
 
 <br/>
 
