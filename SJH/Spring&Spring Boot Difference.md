@@ -119,9 +119,8 @@
 
 - ### 예상질문
 
-  1. Spring과 Spring Boot의 차이는 무엇인가?
-
-     1-1.  Spring framework의 초기 환경 설정의 복잡성을 해결하기 위해 나온 것이 Spring Boot로, 환경 설정을 자동화하여 starter dependency만 추가하면 관련된 라이브러리를 알아서 받아온다.
+  1. **Spring과 Spring Boot의 차이**는 무엇인가?
+- Spring framework의 초기 환경 설정의 복잡성을 해결하기 위해 나온 것이 Spring Boot로, 환경 설정을 자동화하여 starter dependency만 추가하면 관련된 라이브러리를 알아서 받아온다.
 
 <br>
 
