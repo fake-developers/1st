@@ -18,11 +18,11 @@
 
   - <b>Docker 란?</b>
 
-    
   - 애플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 <b>컨테이너 기반</b> 오픈 소스 가상화 플랫폼이다.
       - 소프트웨어를 컨테이너라는 표준화된 유닛으로 패키징하는 기술이다.'
   - 컨테이너에는 라이브러리, 시스템 도구, 코드, 런타임 등 소프트웨어를 실행하는 데 필요한 모든 것이 포함되어 있다.
     
+
 <br/>
     
 - <b>Docker에서 중요한 개념 2가지</b>
@@ -170,5 +170,5 @@ A1) 리눅스 컨테이너를 자동으로 생성하고 응용 프로그램들�
 
 ### Reference📖
 
-- https://github.com/fake-developers/1st/blob/SJH-01/SJH/Programming%20Paradigm.md
-- https://github.com/fake-developers/1st/blob/KJY-01/KJY/%5BSW%5D%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84.md
+- https://github.com/fake-developers/1st/blob/main/SJH/Doker.md
+- https://github.com/fake-developers/1st/blob/main/BJY/Docker.md
