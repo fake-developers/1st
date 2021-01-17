@@ -2,7 +2,7 @@
 
 :writing_hand: *Assembled by Yunju Jang*
 
-<!--🤝*Contributors : JiYoung Kwon*-->
+🤝*Contributors : JiYoung Kwon*
 
 <hr>
 
