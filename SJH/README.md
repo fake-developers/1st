@@ -12,6 +12,7 @@
 - [[Network] OSI 7계층](https://github.com/fake-developers/1st/blob/main/SJH/OSI%207layer.md)
 - [[OS] 프로세스와 쓰레드](https://github.com/fake-developers/1st/blob/main/SJH/Process%26Thread.md)
 - [[WEB] BOM과 DOM](https://github.com/fake-developers/1st/blob/main/SJH/BOM%26DOM.md)
+
 <br/>
 
 ## 2주차
@@ -24,6 +25,7 @@
 - [[Java] 자바 언어 동작과 원리](./Java%20Logic.md)
 - [[NET] HTTP와 HTTPS](./HTTP&HTTPS.md)
 - [[SW] Singleton 패턴](./Singleton%20Pattern.md)
+
 
 <br/>
 
