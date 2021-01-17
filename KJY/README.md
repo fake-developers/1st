@@ -24,7 +24,7 @@
 - [x] [DOCKER] Docker란
 - [x] [JAVASCRIPT] 자바스크립트 언어 동작 원리
 - [x] [WEB] 브라우저 동작 과정
-- [ ] [WEB] 리액트, 뷰, 앵귤러
+- [x] [WEB] 리액트, 뷰, 앵귤러
 
 <br/>
 
