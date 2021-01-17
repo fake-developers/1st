@@ -28,3 +28,14 @@
 - [x] [HTTP와 HTTPS](./Http%26Https.md)
 - [x] [Singleton 패턴](./Singleton%20Pattern.md)
 
+<br/>
+
+<br/>
+
+## 3주차
+
+- [ ] [데드락(교착상태)](./Deadlock.md)
+- [ ] [[JAVA]업캐스팅 & 다운캐스팅](./Upcasting%26Downcasting.md)
+- [ ] [REST API(RESTful)](./REST%20API.md)
+- [ ] [OOP](./OOP.md)
+
