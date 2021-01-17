@@ -89,7 +89,7 @@ E,J,Dijkstra가 제안한 방법으로, 은행에서 모든 고객의 요구가 
 * 프로세스가 자원을 요구할 때 시스템은 자원을 할당한 후에도 안정 상태(safe state)로 남아있게 되는지를 사전에 검사하고 교착 상태를 회피하는 기법
 * 안정상태 (safe state)에 있으면 자원을 할당하고, 그렇지 않으면 다른 프로세스들이 자원을 해지 할 때까지 대기한다.
 
-<img src="C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\banker's algorithm.jpg" style="zoom:45%;" />
+<img src="https://user-images.githubusercontent.com/61674527/104850188-f219a000-5930-11eb-8dae-509a75b37b6e.jpg" style="zoom:45%;" />
 
 * 미리 최대 자원 요구량을 알아야하고, 할당할 수 있는 자원 수가 일정해야 하는 등 사용에 있어 제약 조건이 많고, 그에 따른 자원 이용도 하락 등 단점이 존재한다.
 
@@ -107,7 +107,7 @@ E,J,Dijkstra가 제안한 방법으로, 은행에서 모든 고객의 요구가 
 
 * 자원 할당 그래프를 통해 탐지하는 방법도 있다.
 
-  <img src="C:\Users\jyb63\Desktop\취업스터디\1st\BJY\resource\자원할당그래프.jpg" style="zoom: 80%;" />
+  <img src="https://user-images.githubusercontent.com/61674527/104850200-0493d980-5931-11eb-843d-31fd6da2a6b6.jpg" style="zoom: 80%;" />
 
   * 프로세스 Pi로부터 자원 Rj로의 방향 간선은 Pi → Rj로 표현하며, 이것은 프로세스 Pi가 자의 것을 요청하는 것으로 현재 이 자원을 기다리는 상태이다.
   * 자원 Rj로부터 프로세스 Pi로의 방향 간선은 Rj → Pi로 표현하며, 이것은 자원의 것이 프로세스 Pi에 할당된 것을 의미한다.
@@ -131,6 +131,12 @@ E,J,Dijkstra가 제안한 방법으로, 은행에서 모든 고객의 요구가 
   * 자원 선점하기
 
     * 프로세스에 할당된 자원을 선점해서, 교착 상태를 해결할 때까지 그 자원을 다른 프로세스에 할당해 주는 방법
+
+<br/>
+
+<br/>
+
+<br/>
 
 ### REFERENCE
 
