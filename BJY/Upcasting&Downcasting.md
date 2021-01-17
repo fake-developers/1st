@@ -39,9 +39,9 @@ ex) 사람은 생물이다.
 * 업캐스팅과 달리 명시적으로 타입을 지정해야 한다.
 * 업캐스팅이 선행되어야 한다.
 
-<img src="https://user-images.githubusercontent.com/61674527/104850397-29d51780-5932-11eb-8265-d6e14f0596e2.jpg" style="zoom: 67%;" />
+  <img width="450" src="https://user-images.githubusercontent.com/61674527/104850397-29d51780-5932-11eb-8265-d6e14f0596e2.jpg">
 
-![downcasting2](https://user-images.githubusercontent.com/61674527/104850405-36597000-5932-11eb-9b48-e6f8cc0e6c5a.jpg)
+![downcasting2](https://user-images.githubusercontent.com/61674527/104850851-d617fd80-5934-11eb-8239-80a317baf3a8.jpg)
 
 >  무분별한 다운캐스팅은 컴파일 시점에는 오류가 발생하지 않아도 런타임 오류를 발생시킬 가능성이 있다.  
 
