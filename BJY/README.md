@@ -6,7 +6,6 @@
 
 
 <br/>
-=======
 - [x] [[SW]TDD](https://github.com/fake-developers/1st/blob/main/BJY/TDD.md)
 - [x] [[SW]MVC패턴](https://github.com/fake-developers/1st/blob/main/BJY/MVC.md)
 - [x] [[SW]프로그래밍 패러다임](https://github.com/fake-developers/1st/blob/main/BJY/Programming%20Paradigm.md)
