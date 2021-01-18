@@ -280,3 +280,4 @@ A2) 교착상태가 발생하기 전에 발생 조건을 제거하는 예방 기
 - https://robodream.tistory.com/561
 - https://includestdio.tistory.com/12
 - https://jhnyang.tistory.com/102
+- https://stormcoding.tistory.com/entry/%EC%9E%90%EC%9B%90-%ED%95%A0%EB%8B%B9-%EA%B7%B8%EB%9E%98%ED%94%84resource-allocation-graph
