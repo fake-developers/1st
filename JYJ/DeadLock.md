@@ -15,7 +15,7 @@
     - 서로 다른 프로세스가 점유하고 있는 자원을 요구하며 
     - 무한정 기다리는 현상을 의미한다.
   
-    <img src='resources/deadlock.jpg' width='400px' align='center'>
+    <img src='resources/deadlock.JPG' width='400px' align='center'>
   
   > 상호 배제 기법 (Mutual Exclusion, Mutex) 이란?
   >
@@ -130,7 +130,7 @@
     >
     > \* 예시
     >
-    > <img src='resources/banker1.jpg' width='500px' align='center'>
+    > <img src='resources/banker1.JPG' width='500px' align='center'>
     >
     > - 은행이 빌려줄 수 있는 총 금액 100달러
     >
@@ -162,7 +162,7 @@
     >
     > - 반면, 고객1이 최소 35달러가 당장 필요하다고 해서 35달러를 빌려줬다고 가정했을 때,
     >
-    > <img src='resources/banker2.jpg' width='500px' align='center'>
+    > <img src='resources/banker2.JPG' width='500px' align='center'>
     >
     > - 은행에 남은 돈이 5달러 밖에 남지 않아 아무도 해결해줄 수 없다.
     > - 이 상태를 <mark>불안전 상태, 또는 데드락 상태</mark>라고 한다.
