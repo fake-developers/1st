@@ -32,7 +32,7 @@
 
 - [[NET] TCP와 UDP](./TCP&UDP.md)
 - [[WEB ]PWA란](./PWA.md)
-- [[JAVA]자바 GC](./JAVA%20GC.md)
+- [[JAVA]자바 GC](./Java%20GC.md)
 - [[OS]Context Switching](./Context%20Switching.md)
 
 
