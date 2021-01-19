@@ -1,4 +1,4 @@
-# KJY
+# [KJY
 
 <br/>
 
@@ -30,10 +30,10 @@
 
 ## 3주차
 
-- [x] [NETWORK] TCP와 UDP
-- [x] [WEB] PWA란 
-- [x] [JAVA] 자바 GC
-- [ ] Context Switching
+- [x] [[NETWORK] TCP와 UDP](./%5BNETWORK%5D%20TCP와%20UDP.md)
+- [x] [[WEB] PWA란](./%5BWEB%5D%20PWA란.md)
+- [x] [[JAVA] 자바 GC](./%5BJAVA%5D%20자바%20GC.md)
+- [x] [[OS] Context Switching](./%5BOS%5D%20Context%20Switching.md)
 
 <br />
 
