@@ -147,12 +147,13 @@
        > - CMS 방식은 compaction하지 않아 메모리를 몰아놓지 않으므로 다른 옵션을 사용하여 메모리를 모아준다.
      
   5. **G1 GC**
-
-     <img src="https://user-images.githubusercontent.com/58902042/105059384-8e22e300-5aba-11eb-8f79-373ce57e3dc4.png" height=250 align=left>
-
+  
+     <img src="https://user-images.githubusercontent.com/58902042/105059384-8e22e300-5aba-11eb-8f79-373ce57e3dc4.png" height=250>
+     
      - 큰 용량의 메모리에서 짧은 GC 시간을 보장하는데 목적을 둔다.
      - Eden, Survivor, Old 영역이 존재하지만 고정된 크기로 위치에 존재하지않는다.
      - 전체 Heap 영역을 Region이라는 특정한 크기로 나누어, 각 Region의 상태에 따라 동적으로 역할을 부여한다.
+     
        > **Young 영역**(multi thread)
        >
        > - -XX:ParallelGCThreads로 thread 갯수를 조정할 수 있다
