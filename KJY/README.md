@@ -32,7 +32,7 @@
 
 - [x] [NETWORK] TCP와 UDP
 - [x] [WEB] PWA란 
-- [ ] 자바 GC
+- [x] [JAVA] 자바 GC
 - [ ] Context Switching
 
 <br />
