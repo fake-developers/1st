@@ -103,7 +103,7 @@
   | 통신방식       |            1:1             |   1:1 or 1:N or N:N    |
   | 신뢰성         |            높음            |          낮음          |
   | 속도           |            느림            |          빠름          |
-| 사용           | HTTP, Email, File transfer |   DNS, Broadcasting    |
+  | 사용           | HTTP, Email, File transfer |   DNS, Broadcasting    |
   
   >**가상 회선 방식**
   >
