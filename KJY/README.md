@@ -31,7 +31,7 @@
 ## 3주차
 
 - [x] [NETWORK] TCP와 UDP
-- [ ] PWA란 
+- [x] [WEB] PWA란 
 - [ ] 자바 GC
 - [ ] Context Switching
 
