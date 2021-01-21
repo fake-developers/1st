@@ -63,7 +63,8 @@
   1. **Serial GC**
      - 순차적 GC라고도 불리며, 가장 오래된 GC이다.
 
-     - Mark-Sweep-Compaction 알고리즘이 한번에 하나씩만 동작한다(단일 스레드)Stop-The-World 시간이 너무 길어 사용하지 않는다.
+     - Mark-Sweep-Compaction 알고리즘이 한번에 하나씩만 동작한다(단일 스레드)
+     - Stop-The-World 시간이 너무 길어 사용하지 않는다.
 
        > **Young 영역** (single thread)
        >
