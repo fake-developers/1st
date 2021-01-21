@@ -81,3 +81,4 @@
 
 - [PCB와 TCB](https://zin0-0.tistory.com/225)
 - [Thread와 Process의 Context Switching](https://hwan-shell.tistory.com/197)
+- [컨택스트 스위칭](https://www.crocus.co.kr/1364?category=268776)
