@@ -34,6 +34,10 @@
 - [x] [[WEB] PWA란](./%5BWEB%5D%20PWA란.md)
 - [x] [[JAVA] 자바 GC](./%5BJAVA%5D%20자바%20GC.md)
 - [x] [[OS] Context Switching](./%5BOS%5D%20Context%20Switching.md)
+- [x] [OS] 데드락(DeadLock)
+- [ ] [JAVA] 자바 업캐스팅 다운캐스팅
+- [ ] [NETWORK] REST API (RESTful)
+- [ ] [SW] OOP
 
 <br />
 
