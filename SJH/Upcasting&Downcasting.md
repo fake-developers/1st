@@ -18,7 +18,7 @@
     - 서브 클래스의 객체는 수퍼 클래스의 멤버를 모두 가진다.
     - 따라서, 서브 클래스는 수퍼 클래스로 취급될 수 있다.
 
-  - 수퍼 클래스의 레퍼런스 변수가 서브 클래스로 객채환 된 인스턴스를 가리킬 수 있게 된다.
+  - 수퍼 클래스의 레퍼런스 변수가 서브 클래스로 객체화 된 인스턴스를 가리킬 수 있게 된다.
 
     ![upcasting](https://user-images.githubusercontent.com/61674527/104850375-1629b100-5932-11eb-9b74-91422ffb3713.jpg)
 
@@ -124,13 +124,23 @@
 
 - ### 예상질문
 
-  
+  >  **업캐스팅과 다운캐스팅을 하는 이유**를 설명하시오.
+  >
+  > - 수퍼 클래스에서 파생된 관련 서브 클래스들을 관리하기 용이하기 때문에 사용한다. 그러나, 업캐스팅을 할 경우 파생된 서브 클래스들 고유기능에 접근할 수 없으므로 다운 캐스팅을 한다.
+
+  > **instanceof의 사용 목적**은 무엇인가?
+  >
+  > - 업캐스팅 했을 때 레퍼런스 변수가 가르키는 객체의 타입이 어떤 것인지 구분하기 위해서 사용한다.
+
+  > 다운 캐스팅에서 명시적으로 타입을 지정해야하는 이유는?
+  >
+  > - int와 double관계와 비슷한 경우로, int에서 double은 묵시적이지만 double에서 int는 명시적으로 강제 형변환을 해주어야 한다. 다운캐스팅은 타입이 높은 쪽에서 낮은 쪽으로 변경되는 것이기 때문에 데이터가 손상되어도 괜찮은지 JVM이 판단하기 힘드므로 개발자가 직접 표시를 해줘야 한다.
 
 -------
 
 <참조>
 
 - [자바 #24 업캐스팅과 다운캐스팅](https://sas-study.tistory.com/62)
+- [업캐스팅과 다운캐스팅](https://m.blog.naver.com/PostView.nhn?blogId=goddlaek&logNo=220888538277&proxyReferer=https:%2F%2Fwww.google.com%2F)
 - https://github.com/fake-developers/1st/blob/BJY-03/BJY/Upcasting%26Downcasting.md
-
 - https://github.com/fake-developers/1st/blob/JYJ-03/JYJ/JavaCasting.md

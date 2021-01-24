@@ -173,7 +173,25 @@
        >   - Cleanup(stop-the-world) : Stop-The-World 후, 살아있는 객체가 가장 적은 Region에 대해서 참조되지 않는 객체를 제거한다. Stop-The-World 끝내고 완전히 비워진 Region을 Freelist에 추가하여 재사용한다.
        >   - Copy(stop-the-world) : Root Region Scan 단계에서 찾은 GC 대상 Region이었지만 Cleanup 단계에서 살아남은 객체들을 Available/Unused Region에 복사하여 Compaction 작업을 수행한다.
 
+<br>
 
+-----
+
+- ### 예상질문
+
+  > **GC란 무엇**인가?
+  >
+  > - JVM에서 Heap 영역에 남아있는 더 이상 사용되지 않는 인스턴스를 삭제하여 추가로 사용할 수 있는 메모리 공간을 만드는 과정을 수행하는 것
+
+  > GC는 **데이터 영역 중 어디서** 사용되는가
+  >
+  > - 메모리를 동적으로 할당받는 Heap영역에서 사용된다.
+
+  > **GC의 타입** 3가지에 대해 설명하라.
+  >
+  > - Young영역에서 사용되는 Minor GC
+  > - Old영역에서 사용되는 Major GC
+  > - 전체 힙(Young+Old)영역과 Perm에서 사용되는 Full GC가 있다.
 
 <br>
 
