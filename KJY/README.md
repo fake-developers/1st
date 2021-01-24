@@ -36,8 +36,8 @@
 - [x] [[OS] Context Switching](./%5BOS%5D%20Context%20Switching.md)
 - [x] [OS] 데드락(DeadLock)
 - [x] [JAVA] 자바 업캐스팅 다운캐스팅
-- [ ] [NETWORK] REST API (RESTful)
-- [ ] [SW] OOP
+- [x] [NETWORK] REST API (RESTful)
+- [x] [SW] OOP
 
 <br />
 
