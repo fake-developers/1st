@@ -176,5 +176,5 @@ A3) 앱 스토어 등을 거치지 않기 때문에 설치할 필요 없이 홈 
 ### Reference📖
 
 - https://github.com/fake-developers/1st/blob/main/KJY/%5BWEB%5D%20PWA%EB%9E%80.md
-- 
+- https://github.com/fake-developers/1st/blob/Main/SJH/PWA.md
 
