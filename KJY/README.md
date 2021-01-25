@@ -43,7 +43,7 @@
 
 ## 4주차
 
-- [ ] Git 브랜치 전략 (GitHub flow, Git flow)
+- [x] [GIT] Git 브랜치 전략 (GitHub flow, Git flow)
 - [ ] 자료구조, 스택, 큐
 - [ ] 상속과 구성
 
