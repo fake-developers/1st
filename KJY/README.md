@@ -43,7 +43,7 @@
 
 ## 4주차
 
-- [x] [[GIT] Git 브랜치 전략 (GitHub flow, Git flow)](./%5BGIT%5D%20GIT%20브랜치%20전략%20(GitHub%20flow,%20Git%20flow).md)
+- [x] [[GIT] Git 브랜치 전략 (GitHub flow, Git flow)](./%5BGIT%5D%20Git%20브랜치%20전략%20(GitHub%20flow,%20Git%20flow).md)
 - [x] [[DATA STRUCTURE] 스택(Stack), 큐(Queue)](./%5BDATA%20STRUCTURE%5D%20스택(Stack),%20큐(Queue).md)
 - [x] [[JAVA] 상속과 구성](./%5BJAVA%5D%20상속과%20구성.md)
 
