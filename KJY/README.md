@@ -34,17 +34,17 @@
 - [x] [[WEB] PWA란](./%5BWEB%5D%20PWA란.md)
 - [x] [[JAVA] 자바 GC](./%5BJAVA%5D%20자바%20GC.md)
 - [x] [[OS] Context Switching](./%5BOS%5D%20Context%20Switching.md)
-- [x] [OS] 데드락(DeadLock)
-- [x] [JAVA] 자바 업캐스팅 다운캐스팅
-- [x] [NETWORK] REST API (RESTful)
-- [x] [SW] OOP
+- [x] [[OS] 데드락(DeadLock)](./%5BOS%5D%20데드락(DeadLock).md)
+- [x] [[JAVA] 자바 업캐스팅 다운캐스팅](./%5BJAVA%5D%20자바%20업캐스팅%20다운캐스팅.md)
+- [x] [[NETWORK] REST API (RESTful)](./%5BNETWORK%5D%20REST%20API%20(RESTful).md)
+- [x] [[SW] OOP](./%5BSW%5D%20OOP.md)
 
 <br />
 
 ## 4주차
 
-- [x] [GIT] Git 브랜치 전략 (GitHub flow, Git flow)
-- [x] [DATA STRUCTURE] 스택(Stack), 큐(Queue)
-- [ ] 상속과 구성
+- [x] [[GIT] Git 브랜치 전략 (GitHub flow, Git flow)](./%5BGIT%5D%20GIT%20브랜치%20전략%20(GitHub%20flow,%20Git%20flow).md)
+- [x] [[DATA STRUCTURE] 스택(Stack), 큐(Queue)](./%5BDATA%20STRUCTURE%5D%20스택(Stack),%20큐(Queue).md)
+- [x] [[JAVA] 상속과 구성](./%5BJAVA%5D%20상속과%20구성.md)
 
 <br/>
