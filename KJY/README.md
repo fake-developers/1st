@@ -44,7 +44,7 @@
 ## 4주차
 
 - [x] [GIT] Git 브랜치 전략 (GitHub flow, Git flow)
-- [ ] 자료구조, 스택, 큐
+- [x] [DATA STRUCTURE] 스택(Stack), 큐(Queue)
 - [ ] 상속과 구성
 
 <br/>
