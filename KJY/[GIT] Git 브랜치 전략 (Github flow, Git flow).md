@@ -98,7 +98,6 @@
   > * 브랜치 이름 규칙 : master, develop, release-\*, hotfix-\*를 제외한 것
   * 기능을 개발하는 브랜치로, develop 브랜치로부터 분기
   * 기능을 다 완성할 때까지 유지하고, 다 완성되면 develop 브랜치로 merge
-  * 보통 개발자 저장소에만 있는 브랜치, origin에는 push 하지 않음
 
   <br/>
 
@@ -230,7 +229,7 @@
 
 <br/>
 
-#### 2-3. Git-flow의 장단점
+#### 2-3. GitHub-flow의 장단점
 
 ##### **장점**
 
