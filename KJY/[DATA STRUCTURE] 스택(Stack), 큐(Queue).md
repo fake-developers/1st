@@ -104,7 +104,7 @@ public class Stack {
 
 #### 2-1. 특징
 
-* **FIFO 구조 **: 선입선출(First-in First-out)
+* **FIFO 구조** : 선입선출(First-in First-out)
   * 먼저 들어온 것이 먼저 나간다
   * 공연장에서 입장을 기다리는 관객
 * 한 쪽 끝에서 삽입 작업, 다른 쪽 끝에서 삭제 작업이 양쪽으로 이루어짐
