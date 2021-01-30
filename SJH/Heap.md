@@ -5,7 +5,7 @@
 - **우선순위 큐**를 위해 만들어진 자료구조이다.
 
 <details>
-   <summary> 세부목록 </summary>
+   <summary> 우선순위 큐 </summary>
 
    * 우선순위의 개념에 큐를 도입한 자료구조
 
@@ -13,13 +13,12 @@
 
          <img src="https://user-images.githubusercontent.com/58902042/106144929-3f5f0280-61b8-11eb-9260-d1ae4531a6f7.PNG" height =80>
 
-* 우선순위 큐는 배열, 연결리스트 힙으로 구현 가능하다.
-
+   * 우선순위 큐는 배열, 연결리스트 힙으로 구현 가능하다.
       <img src="https://user-images.githubusercontent.com/58902042/106145199-9664d780-61b8-11eb-86d9-8d09b7ad25dc.PNG" height=130>
-
-
-     * **힙으로 구현하는 것이 가장 효율적**이다.
+      
+   * **힙으로 구현하는 것이 가장 효율적**이다.
 <details>
+
 - 힙은 **완전 이진 트리**의 일종으로, 최댓값과 최솟값을 빠르게 찾아내는 연산을 위해 고안 되었다.
 - 힙은 일종의 **반정렬 상태(느슨한 정렬 상태 유지)** 를 유지한다.
   - 큰 값이 상위 레벨에 있고, 작은 값이 하위 레벨에 있다는 정도
@@ -74,7 +73,29 @@
 
       <img src="https://user-images.githubusercontent.com/58902042/106148927-feb5b800-61bc-11eb-929a-b5456fbea417.PNG" height=700>
 
-     
+
+<br>
+
+### Heap의 삭제
+
+1. 최대 힙에서 최댓값은 루트 노드이므로 루트 노드가 삭제된다.
+
+   - 최대 힙에서 삭제 연산은 최댓값을 가진 요소를 삭제하는 것
+
+2. 삭제된 루트 노드에는 힙의 마지막 노드를 가져온다.
+
+3. 힙을 재구성한다.
+
+   - ex_)
+
+   <img src="https://user-images.githubusercontent.com/58902042/106350158-17d27c00-6317-11eb-9c87-53fba924ece4.PNG" height=700>
 
 
 
+
+
+-------------
+
+**<참조>**
+
+- https://github.com/fake-developers/1st/blob/JYJ-04/JYJ/Heap.md
