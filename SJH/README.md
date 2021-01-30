@@ -34,11 +34,10 @@
 - [[WEB ]PWA란](./PWA.md)
 - [[JAVA]자바 GC](./Java%20GC.md)
 - [[OS]Context Switching](./Context%20Switching.md)
-
 - [[OS]데드락](./Dead%20lock.md)
--  [[Java]자바 업캐스팅 다운캐스팅](./Upcasting&Downcasting.md)
--  [[Network]REST API](./REST%20API.md)
--  [[SW]OOP](./OOP(Object%20Oriented%20Programming.md))
+- [[Java]자바 업캐스팅 다운캐스팅](./Upcasting&Downcasting.md)
+- [[Network]REST API](./REST%20API.md)
+- [[SW]OOP](./OOP(Object%20Oriented%20Programming.md))
 
 <br/>
 
