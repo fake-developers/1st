@@ -46,7 +46,7 @@
 - [[Algoithms] 버블정렬](./Bubble%20sort.md)
 - [[WEB] 서블릿과 JSP](./Servlet&JSP.md)
 -  [[GIT] Git 브랜치 전략 (GitHub flow, Git flow)](./Git%20branch%20strategy(GitHub%20flow,%20Git%20flow).md)
--  [[Data Structure] 스택(Stack), 큐(Queue)]()
+-  [[Data Structure] 스택(Stack), 큐(Queue)](./Stack&Queue.md)
 -  [[Java] 상속과 구성](./Inheritance&Composition.md)
 -  [[Java]String, StringBuffer, StringBuilder 차이](./String,%20StringBuffer,%20StringBuilder%20Difference.md)
 -  [[Data Structure]Heap](./Heap.md)
