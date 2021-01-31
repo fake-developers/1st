@@ -4,21 +4,21 @@
 
 - **우선순위 큐**를 위해 만들어진 자료구조이다.
 
-<details>
-   <summary> 우선순위 큐 </summary>
+   <details>
+      <summary> 우선순위 큐 </summary>
 
-   * 우선순위의 개념에 큐를 도입한 자료구조
+     * 우선순위의 개념에 큐를 도입한 자료구조
 
-   * 데이터들이 우선순위를 가지고 있고, 우선순위가 높은 데이터가 먼저 나간다.
-   
-       <img src="https://user-images.githubusercontent.com/58902042/106144929-3f5f0280-61b8-11eb-9260-d1ae4531a6f7.PNG" height =80>
+     * 데이터들이 우선순위를 가지고 있고, 우선순위가 높은 데이터가 먼저 나간다.
 
-   * 우선순위 큐는 배열, 연결리스트 힙으로 구현 가능하다.
-   
-      <img src="https://user-images.githubusercontent.com/58902042/106145199-9664d780-61b8-11eb-86d9-8d09b7ad25dc.PNG" height=130>
-      
-   * **힙으로 구현하는 것이 가장 효율적**이다.
-</details>
+          <img src="https://user-images.githubusercontent.com/58902042/106144929-3f5f0280-61b8-11eb-9260-d1ae4531a6f7.PNG" height =80>
+
+     * 우선순위 큐는 배열, 연결리스트 힙으로 구현 가능하다.
+
+        <img src="https://user-images.githubusercontent.com/58902042/106145199-9664d780-61b8-11eb-86d9-8d09b7ad25dc.PNG" height=130>
+
+     * **힙으로 구현하는 것이 가장 효율적**이다.
+   </details>
 
 - 힙은 **완전 이진 트리**의 일종으로, 최댓값과 최솟값을 빠르게 찾아내는 연산을 위해 고안 되었다.
 - 힙은 일종의 **반정렬 상태(느슨한 정렬 상태 유지)** 를 유지한다.
