@@ -1,4 +1,4 @@
-# KJY
+# [KJY
 
 <br/>
 
@@ -27,4 +27,19 @@
 - [x] [[WEB] 리액트, 뷰, 앵귤러](./%5BWEB%5D%20리액트%2C%20뷰%2C%20앵귤러.md)
 
 <br/>
+
+
+## 3주차
+
+- [x] [[NETWORK] TCP와 UDP](./%5BNETWORK%5D%20TCP와%20UDP.md)
+- [x] [[WEB] PWA란](./%5BWEB%5D%20PWA란.md)
+- [x] [[JAVA] 자바 GC](./%5BJAVA%5D%20자바%20GC.md)
+- [x] [[OS] Context Switching](./%5BOS%5D%20Context%20Switching.md)
+- [x] [OS] 데드락(DeadLock)
+- [x] [JAVA] 자바 업캐스팅 다운캐스팅
+- [x] [NETWORK] REST API (RESTful)
+- [x] [SW] OOP
+
+<br />
+
 

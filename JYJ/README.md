@@ -23,8 +23,28 @@
 - [x] [[Java]자바 언어의 동작 원리](./JavaOperation.md)
 - [x] [[Network]HTTP와 HTTPS](./HttpAndHttps.md)
 - [x] [[SW]싱글톤 패턴](./Singleton.md)
-
 - [x] [[SW]Docker](./Docker.md)
 - [x] [[WEB]자바스크립트 언어의 동작 원리](./JsOperation.md)
 - [x] [[WEB]브라우저 동작 과정](./BrowserOperation.md)
 - [x] [[WEB]React, Vue, Angular](./ReactVueAngular.md)
+
+
+<br/>
+
+<br/>
+
+## 3주차
+
+- [x] [[OS]데드락](./DeadLock.md)
+- [x] [[Java]자바 업캐스팅 다운캐스팅](./JavaCasting.md)
+- [x] [[Network]REST API](./RestAPI.md)
+- [x] [[SW]OOP](./OOP.md)
+- [x] [[Network]TCP와 UDP](./TCPandUDP.md)
+- [x] [[WEB]PWA](./PWA.md)
+- [x] [[Java]자바 GC](./GC.md)
+- [x] [[OS]Context Switching](./ContextSwitching.md)
+
+<br/>
+
+<br/>
+
