@@ -48,9 +48,9 @@
 - [x] [[JAVA] 상속과 구성](./%5BJAVA%5D%20상속과%20구성.md)
 - [x] [[JAVA] String, StringBuffer, StringBuilder 차이](./%5BJAVA%5D%20String,%20StringBuffer,%20StringBuilder%20차이.md)
 - [x] [[DATA STRUCTURE] Heap](./%5BDATA%20STRUCTURE%5D%20Heap.md)
-- [x] [[DATABASE] 정규화](./%5BDATABASE%5D%20정규화.md)
+- [x] [[DATABASE] 정규화(Normalization)](./%5BDATABASE%5D%20정규화%20(Normalization).md)
 - [x] [[JAVA] Primitive type & Reference type](./%5BJAVA%5D%20Primitive%20type%20%26%20Reference%20type.md)
-- [x] [[DATA STRUCTURE] 버블 정렬 (Bubble Sort)](./%5BDATA%20STRUCTURE%5D%20버블%20정렬%20(Bubble%20Sort).md)
+- [x] [[DATA STRUCTURE] 버블정렬(Bubble Sort)](./%5BDATA%20STRUCTURE%5D%20버블정렬(Bubble%20Sort).md)
 - [x] [[WEB] 서블릿과 JSP](./%5BWEB%5D%20서블릿과%20JSP.md)
 
 <br/>
