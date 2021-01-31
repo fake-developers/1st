@@ -10,10 +10,11 @@
    * 우선순위의 개념에 큐를 도입한 자료구조
 
    * 데이터들이 우선순위를 가지고 있고, 우선순위가 높은 데이터가 먼저 나간다.
-
-         <img src="https://user-images.githubusercontent.com/58902042/106144929-3f5f0280-61b8-11eb-9260-d1ae4531a6f7.PNG" height =80>
+   
+       <img src="https://user-images.githubusercontent.com/58902042/106144929-3f5f0280-61b8-11eb-9260-d1ae4531a6f7.PNG" height =80>
 
    * 우선순위 큐는 배열, 연결리스트 힙으로 구현 가능하다.
+   
       <img src="https://user-images.githubusercontent.com/58902042/106145199-9664d780-61b8-11eb-86d9-8d09b7ad25dc.PNG" height=130>
       
    * **힙으로 구현하는 것이 가장 효율적**이다.
