@@ -93,6 +93,28 @@
 
 <br>
 
+------
+
+###  예상질문 :bulb:
+
+1. **Java에서 문자열을 다루는 대표적인 클래스**를 말하시오.
+   - String, StringBuffer, StringBuilder
+
+
+
+2. **String, StringBuffer, StringBuilder의 차이** 를 설명하시오
+   - String은 메모리가 생성되면 불변하고  StringBuffer, StringBuilder은 가변적 성질을 가지고 있다.
+   - StringBuffer와 StringBuilder에서 StringBuffer는 동기화를 지원하여멀티쓰레드 상태에 적합하지만, StringBuilder는 동기화를 지원하지 않아 멀티쓰레드 환경에 적합하지 않다.
+
+
+
+3. **String에서 불변의 성질을 가지고 있다고 했는데도 불구하고 값을 변경할 수 있는 이유**
+   - 만들어진 공간 내의 값을 변경하는 것이 아니라 새로운 객체를 생성하고 그 공간을 참조하게 하여 값을 변경한다.
+
+
+
+
+
 --------
 
 <참조>
