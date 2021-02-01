@@ -56,6 +56,6 @@
 - [x] [[DataStructure]스택과 큐](./StackAndQueue.md)
 - [x] [[Java]상속과 구성](./InheriAndCompo.md)
 
-- [x] [[Java]Primitive Type 과 Reference Type](./JavaType.md)
+- [x] [[Java]Primitive Type과 Reference Type](./JavaType.md)
 - [x] [[Algorithm]버블 정렬](./BubbleSort.md)
 - [x] [[Git]Git 브랜치 전략](./GitBranch.md)
