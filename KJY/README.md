@@ -57,5 +57,5 @@
 
 ## 5주차
 
-- [ ] [DATABASE] SQL, DDL, DML, DCL
+- [x] [DATABASE] SQL, DDL, DML, DCL
 - [ ] [JAVA] 제네릭
