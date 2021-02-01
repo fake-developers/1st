@@ -54,3 +54,8 @@
 - [x] [WEB] 서블릿과 jsp
 
 <br/>
+
+## 5주차
+
+- [ ] [DATABASE] SQL, DDL, DML, DCL
+- [ ] [JAVA] 제네릭
