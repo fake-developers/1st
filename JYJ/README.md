@@ -23,7 +23,6 @@
 - [x] [[Java]자바 언어의 동작 원리](./JavaOperation.md)
 - [x] [[Network]HTTP와 HTTPS](./HttpAndHttps.md)
 - [x] [[SW]싱글톤 패턴](./Singleton.md)
-
 - [x] [[SW]Docker](./Docker.md)
 - [x] [[WEB]자바스크립트 언어의 동작 원리](./JsOperation.md)
 - [x] [[WEB]브라우저 동작 과정](./BrowserOperation.md)
@@ -47,6 +46,7 @@
 <br/>
 
 <br/>
+<<<<<<< HEAD
 
 ## 4주차
 
@@ -60,3 +60,5 @@
 - [x] [[Algorithm]버블 정렬](./BubbleSort.md)
 - [x] [[Git]Git 브랜치 전략](./GitBranch.md)
 
+=======
+>>>>>>> d39704ad8beda3cf632446907d1cd77336ce4ff0
