@@ -80,7 +80,7 @@
 
 - <u>*Load Balancing*</u>을 위해 Web Server 사용
 
-- fail over(장애 극복), fail back 처리에 유리
+- fail over(장애 극복), fail back(장애 전 상태) 처리에 유리
 
 - 특히 대용량 웹 어플리케이션의 경우 여러개의 서버를 사용, Web Server와 WAS를 분리하여 무중단 운영을 위한 장애 극복에 쉽게 대응할 수 있다.
   
@@ -96,7 +96,7 @@
 
 - 하나의 서버에서 PHP Application과 Java Application을 함께 사용할 수 있다.
 
-#### 5. 기타**
+#### 5. 기타
 
 - 접근 허용 IP 관리, 2대 이상의 서버에서의 세션 관리 등도 Web Server에서 처리하면 효율적이다.
 
