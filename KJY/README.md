@@ -58,4 +58,4 @@
 ## 5주차
 
 - [x] [DATABASE] SQL, DDL, DML, DCL
-- [ ] [JAVA] 제네릭
+- [x] [JAVA] 제네릭
