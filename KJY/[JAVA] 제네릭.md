@@ -212,7 +212,7 @@
     * 하위타입 이상으로만 올 수 있음
     * < ? super D > => D, A 가능
 
-```
+```java
 public class Calcu {
     public void printList(List<?> list) {
        for (Object obj : list) {
