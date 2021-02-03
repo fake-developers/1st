@@ -14,7 +14,7 @@
 
   ![img](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/516/2136.png)
 
-* 제네릭 선언은 **클래스<사용할 타입>**으로 함
+* 제네릭 선언은 **클래스<사용할 타입>** 으로 함
 
   * ```
     public class 클래스명<T> {...}
@@ -52,12 +52,12 @@
 
   * | 타입인자 | 설명    |
     | -------- | ------- |
-    | <T>      | Type    |
-    | <E>      | Element |
-    | <K>      | Key     |
-    | <N>      | Number  |
-    | <V>      | Value   |
-    | <R>      | Result  |
+    | < T >      | Type    |
+    | < E >      | Element |
+    | < K >      | Key     |
+    | < N >      | Number  |
+    | < V >      | Value   |
+    | < R >      | Result  |
 
 <br/>
 
@@ -198,19 +198,19 @@
 
   <img src = https://honbabzone.com/assets/images/post/java/generic.png width = 50%>
 
-  * <?>
+  * < ? >
 
     * 모든 클래스나 인터페이스가 올 수 있음. 즉 제한없음
     * A ~ E 모두 올 수 있음
 
-  * <? extends 상위타입>
+  * < ? extends 상위타입 >
 
     * 상위타입 이하로만 올 수 있음
-    * <? extends D> => D, E 가능
+    * < ? extends D > => D, E 가능
 
-  * <? supper 하위타입>
-  * 하위타입 이상으로만 올 수 있음
-    * <? supper D> => D, A 가능
+  * < ? supper 하위타입 >
+    * 하위타입 이상으로만 올 수 있음
+    * < ? supper D > => D, A 가능
 
   
 
