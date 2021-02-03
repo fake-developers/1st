@@ -251,3 +251,5 @@ public class Calcu {
 [JAVA 제네릭이란(Generic)?](https://honbabzone.com/java/java-generic/)
 
 [JAVA 제네릭(Generics) 클래스와 메소드](https://atoz-develop.tistory.com/entry/JAVA-%EC%A0%9C%EB%84%A4%EB%A6%ADGenerics-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EB%A9%94%EC%86%8C%EB%93%9C)
+
+[제네릭](https://opentutorials.org/module/516/6237)
