@@ -208,10 +208,34 @@
     * 상위타입 이하로만 올 수 있음
     * < ? extends D > => D, E 가능
 
-  * < ? supper 하위타입 >
+  * < ? super 하위타입 >
     * 하위타입 이상으로만 올 수 있음
-    * < ? supper D > => D, A 가능
+    * < ? super D > => D, A 가능
 
+```
+public class Calcu {
+    public void printList(List<?> list) {
+       for (Object obj : list) {
+    	   System.out.println(obj + " ");  
+       }
+    }
+
+    public int sum(List<? extends Number> list) {
+      int sum = 0;
+      for (Number i : list) {
+    	  sum += i.doubleValue();  
+      }
+      return sum;
+    }
+
+   public List<? super Integer> addList(List<? super Integer> list) {
+      for (int i = 1; i < 5; i++) {
+    	 list.add(i); 
+      }
+      return list;
+    }
+}
+```
   
 
 ## :page_with_curl: Reference
