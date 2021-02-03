@@ -58,3 +58,13 @@
 - [x] [[Java]Primitive Type과 Reference Type](./JavaType.md)
 - [x] [[Algorithm]버블 정렬](./BubbleSort.md)
 - [x] [[Git]Git 브랜치 전략](./GitBranch.md)
+
+<br/>
+
+<br/>
+
+## 5주차
+
+- [x] [[DB]RDBMS와 NoSQL 차이](./RDBMSandNoSQL.md)
+- [x] [[Java]static과 final의 차이](./StaticAndFinal.md)
+- [ ] 
