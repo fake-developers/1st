@@ -58,5 +58,5 @@
 
 ## 5주차
 
-- [[Java] Abstract와 Interface]()
-- [[Web] WAS와 Web Server]()
+- [[Java] Abstract와 Interface](./Abstract&Interface.md)
+- [[Web] WAS와 Web Server](./WAS&Web%20Server.md)
