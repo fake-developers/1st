@@ -1,21 +1,21 @@
 # Context Switching
 
-- ### 들어가기 앞서
+#### 들어가기 앞서
 
-  - Context란?
-    - CPU가 다루는 Task에 대한 정보
-    
-    - 대부분의 정보는 Register에 저장되며 PCB로 관리된다.
-    
-      ~~~
-      <Register>
-      - CPU가 요청을 처리하는데 필요한 데이터를 일시적으로 저장하는 기억장치
-      ~~~
+- Context란?
+  - CPU가 다루는 Task에 대한 정보
+  
+  - 대부분의 정보는 Register에 저장되며 PCB로 관리된다.
+  
+    ~~~
+    <Register>
+    - CPU가 요청을 처리하는데 필요한 데이터를 일시적으로 저장하는 기억장치
+    ~~~
 
 
 <br>
 
-- ### Context Switching이란?
+## Context Switching이란?
 
   - CPU가 한 개의 Task(Process/Thread)를 실행하고 있는 상태에서 **Interrupt 요청**에 의해 다른 Task로 실행이 전환되는 과정에서 기존의 Task 상태 및 Context를 저장하고 새로운 Task의 Context정보로 교체하는 작업.
     >Interrupt 요청
@@ -57,15 +57,15 @@
 
 <br>
 
-- ### 스케쥴러
+## 스케쥴러
 
-  - Context-Switching을 하는 주체
-  - 인터럽트가 발생할 때 수행할 다음 프로세스를 결정한다.
+- Context-Switching을 하는 주체
+- 인터럽트가 발생할 때 수행할 다음 프로세스를 결정한다.
 
 
 <br>
 
-- ### Context Swithcing을 하는 이유
+## Context Swithcing을 하는 이유
 
   - 멀티 프로그래밍을 하기 위해서이다.
     - CPU가 하나의 프로세스를 돌리다가 사용자의 I/O입력을 받아야할 때 입력을 받을 때까지 기다리게 된다면 다른 프로그램은 다 일시정지 상태가 되므로, 이러한 비효율을 막기 위해 사용한다.
