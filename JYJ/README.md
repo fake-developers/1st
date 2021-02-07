@@ -67,4 +67,6 @@
 
 - [x] [[DB]RDBMS와 NoSQL 차이](./RDBMSandNoSQL.md)
 - [x] [[Java]static과 final의 차이](./StaticAndFinal.md)
-- [ ] 
+- [x] [[Java]Abstract와 Interface](./AbstractAndInterface.md)
+- [x] [[Web]WAS와 Web Server](./WASandWebServer.md)
+- [x] [[Java]제네릭](./Generic)
