@@ -62,4 +62,4 @@
 - [x] [DATABASE] RDBMS와 NoSQL 차이
 - [x] [JAVA] static과 final의 차이
 - [x] [JAVA] abstract와 interface
-- [ ] [WEB] WAS와 Web Server
+- [x] [WEB] WAS와 Web Server
