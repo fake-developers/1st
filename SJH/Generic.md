@@ -18,6 +18,7 @@
   ~~~
   public class 클래스명<T> {...}
   public interface 인터페이스명<T> {...}
+  ~~~
 
 - #### 제네릭의 장점
 
