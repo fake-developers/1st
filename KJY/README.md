@@ -61,5 +61,5 @@
 - [x] [JAVA] 제네릭
 - [x] [DATABASE] RDBMS와 NoSQL 차이
 - [x] [JAVA] static과 final의 차이
-- [ ] [JAVA] Abstract와 Interface
+- [x] [JAVA] abstract와 interface
 - [ ] [WEB] WAS와 Web Server
