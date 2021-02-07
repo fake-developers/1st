@@ -318,7 +318,10 @@
 
 <참조>
 
-- <https://github.com/fake-developers/1st/blob/KJY-05/KJY/%5BDATABASE%5D%20SQL%2C%20DDL%2C%20DML%2C%20DCL.md>
+- [[데이터베이스\] DML, DDL, DCL이란?](https://cbw1030.tistory.com/71)
+- [SQL - DDL, DML, DCL](https://stajun.tistory.com/entry/SQL-DDL-DML-DCL)
+- [[DB\] DDL, DML, DCL 이란?](https://brownbears.tistory.com/180)
+- [SQL DDL, DML, DCL이란?](https://zzdd1558.tistory.com/88)
 - [관계데이터 무결성 제약 조건](https://m.blog.naver.com/PostView.nhn?blogId=james_parku&logNo=110175820697&proxyReferer=https:%2F%2Fwww.google.com%2F)
 - [DB 제약조건 추가와 제약조건 수정](http://blog.naver.com/PostView.nhn?blogId=mygumi_1&logNo=20206370021)
 
