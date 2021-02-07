@@ -59,7 +59,7 @@
 
 - [x] [DATABASE] SQL, DDL, DML, DCL
 - [x] [JAVA] 제네릭
-- [ ] [DATABASE] RDBMS와 NoSQL 차이
+- [x] [DATABASE] RDBMS와 NoSQL 차이
 - [ ] [JAVA] static과 final의 차이
 - [ ] [JAVA] Abstract와 Interface
 - [ ] [WEB] WAS와 Web Server
