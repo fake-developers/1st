@@ -14,7 +14,7 @@
 
   ![img](https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/516/2136.png)
 
-* 제네릭 선언은 **클래스<사용할 타입>**으로 함
+* 제네릭 선언은 **클래스<사용할 타입>** 으로 함
 
   * ```
     public class 클래스명<T> {...}
@@ -52,12 +52,12 @@
 
   * | 타입인자 | 설명    |
     | -------- | ------- |
-    | <T>      | Type    |
-    | <E>      | Element |
-    | <K>      | Key     |
-    | <N>      | Number  |
-    | <V>      | Value   |
-    | <R>      | Result  |
+    | < T >      | Type    |
+    | < E >      | Element |
+    | < K >      | Key     |
+    | < N >      | Number  |
+    | < V >      | Value   |
+    | < R >      | Result  |
 
 <br/>
 
@@ -140,6 +140,10 @@
 
 * 클래스의 제네릭 타입이 전역 변수처럼 사용된다면, 메소드의 제네릭 타입은 해당 메소드 안에서만 사용할 수 있는 **지역성**을 가짐
 
+* 제네릭 클래스가 아닌 일반 클래스 내부에도 제네릭 메서드를 정의할 수 있음
+   * 클래스에 지정된 타입 파라미터와 제네릭 메서드에 정의된 타입 파라미터는 상관이 없다는 것
+   * 즉, 제네릭 클래스에 < T > 를 사용하고, 같은 클래스의 제네릭 메서드에도 < T > 로 같은 이름을 가진 타입 파라미터를 사용하더라도 둘은 전혀 상관이 없음
+
 * 메소드에서 제네릭 타입 선언
 
   * ```java
@@ -198,20 +202,44 @@
 
   <img src = https://honbabzone.com/assets/images/post/java/generic.png width = 50%>
 
-  * <?>
+  * < ? >
 
     * 모든 클래스나 인터페이스가 올 수 있음. 즉 제한없음
     * A ~ E 모두 올 수 있음
 
-  * <? extends 상위타입>
+  * < ? extends 상위타입 >
 
     * 상위타입 이하로만 올 수 있음
-    * <? extends D> => D, E 가능
+    * < ? extends D > => D, E 가능
 
-  * <? supper 하위타입>
-  * 하위타입 이상으로만 올 수 있음
-    * <? supper D> => D, A 가능
+  * < ? super 하위타입 >
+    * 하위타입 이상으로만 올 수 있음
+    * < ? super D > => D, A 가능
 
+```java
+public class Calcu {
+    public void printList(List<?> list) {
+       for (Object obj : list) {
+    	   System.out.println(obj + " ");  
+       }
+    }
+
+    public int sum(List<? extends Number> list) {
+      int sum = 0;
+      for (Number i : list) {
+    	  sum += i.doubleValue();  
+      }
+      return sum;
+    }
+
+   public List<? super Integer> addList(List<? super Integer> list) {
+      for (int i = 1; i < 5; i++) {
+    	 list.add(i); 
+      }
+      return list;
+    }
+}
+```
   
 
 ## :page_with_curl: Reference
@@ -223,3 +251,5 @@
 [JAVA 제네릭이란(Generic)?](https://honbabzone.com/java/java-generic/)
 
 [JAVA 제네릭(Generics) 클래스와 메소드](https://atoz-develop.tistory.com/entry/JAVA-%EC%A0%9C%EB%84%A4%EB%A6%ADGenerics-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EB%A9%94%EC%86%8C%EB%93%9C)
+
+[제네릭](https://opentutorials.org/module/516/6237)
