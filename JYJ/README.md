@@ -55,7 +55,20 @@
 - [x] [[DB]정규화](./Normalization.md)
 - [x] [[DataStructure]스택과 큐](./StackAndQueue.md)
 - [x] [[Java]상속과 구성](./InheriAndCompo.md)
-
 - [x] [[Java]Primitive Type과 Reference Type](./JavaType.md)
 - [x] [[Algorithm]버블 정렬](./BubbleSort.md)
 - [x] [[Git]Git 브랜치 전략](./GitBranch.md)
+
+<br/>
+
+<br/>
+
+## 5주차
+
+- [x] [[DB]RDBMS와 NoSQL 차이](./RDBMSandNoSQL.md)
+- [x] [[Java]static과 final의 차이](./StaticAndFinal.md)
+- [x] [[Java]Abstract와 Interface](./AbstractAndInterface.md)
+- [x] [[Web]WAS와 Web Server](./WASandWebServer.md)
+- [x] [[java]제네릭](./Generic.md)
+- [x] [[DB]SQL, DDL, DML, DCL](./DataLanguage.md)
+
