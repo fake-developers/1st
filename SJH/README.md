@@ -25,7 +25,30 @@
 - [[Java] 자바 언어 동작과 원리](./Java%20Logic.md)
 - [[NET] HTTP와 HTTPS](./HTTP&HTTPS.md)
 - [[SW] Singleton 패턴](./Singleton%20Pattern.md)
+<br/>
 
+## 3주차
+
+- [[NET] TCP와 UDP](./TCP&UDP.md)
+- [[WEB ]PWA란](./PWA.md)
+- [[JAVA]자바 GC](./Java%20GC.md)
+- [[OS]Context Switching](./Context%20Switching.md)
+- [[OS]데드락](./Dead%20lock.md)
+- [[Java]자바 업캐스팅 다운캐스팅](./Upcasting&Downcasting.md)
+- [[Network]REST API](./REST%20API.md)
+- [[SW]OOP](./OOP(Object%20Oriented%20Programming).md)
 
 <br/>
+
+## 4주차
+
+- [[Java] 자바에서 primitive type & reference type](./Java%20Primitive%20type%20&%20Reference%20type.md)
+- [[Algoithms] 버블정렬](./Bubble%20sort.md)
+- [[WEB] 서블릿과 JSP](./Servlet&JSP.md)
+-  [[GIT] Git 브랜치 전략 (GitHub flow, Git flow)](./Git%20branch%20strategy(GitHub%20flow,%20Git%20flow).md)
+-  [[Data Structure] 스택(Stack), 큐(Queue)](./Stack&Queue.md)
+-  [[Java] 상속과 구성](./Inheritance&Composition.md)
+-  [[Java]String, StringBuffer, StringBuilder 차이](./String,%20StringBuffer,%20StringBuilder%20Difference.md)
+-  [[Data Structure]Heap](./Heap.md)
+-  [[DB]정규화](./Normalization.md)
 
