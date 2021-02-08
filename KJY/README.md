@@ -57,3 +57,11 @@
 
 <br/>
 
+## 5주차
+
+- [x] [[DATABASE] SQL, DDL, DML, DCL](./%5BDATABASE%5D%20SQL,%20DDL,%20DML,%20DCL.md)
+- [x] [[JAVA] 제네릭](./%5BJAVA%5D%20제네릭.md)
+- [x] [[DATABASE] RDBMS와 NoSQL 차이](./%5BDATABASE%5D%20RDBMS와%20NoSQL%20차이.md)
+- [x] [[JAVA] static과 final 차이](./%5BJAVA%5D%20static과%20final%20차이.md)
+- [x] [[JAVA] abstract와 interface](./%5BJAVA%5D%20abstract와%20interface.md)
+- [x] [[WEB] WAS와 Web Server](./%5BWEB%5D%20WAS와%20Web%20Server.md)
