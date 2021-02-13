@@ -42,15 +42,15 @@
 
      1-1. 클래스 로더 세부 동작
 
-     ​	- 로드 : 클래스 파일을 가져와 JVM의 메모리에 로드
-
-     ​	- 검증 : 자바 언어 명세 및 JVM 명세에 명시된 대로 구성되어 있는지 검사
-
-     ​	- 준비 : 클래스가 필요로 하는 메모리를 할당(필드, 메서드, 인터페이스 등)
-
-     ​	- 분석 : 클래스의 상수 풀 내 모든 심복릭 레퍼런스를 다이렉트 레퍼런스로 변경
-     
-      	- 초기화 : 클래스 변수들을 적절한 값으로 초기화(static 필드)
+     - 로드 : 클래스 파일을 가져와 JVM의 메모리에 로드
+	
+     - 검증 : 자바 언어 명세 및 JVM 명세에 명시된 대로 구성되어 있는지 검사
+	
+     - 준비 : 클래스가 필요로 하는 메모리를 할당(필드, 메서드, 인터페이스 등)
+	
+     - 분석 : 클래스의 상수 풀 내 모든 심복릭 레퍼런스를 다이렉트 레퍼런스로 변경
+     	
+     - 초기화 : 클래스 변수들을 적절한 값으로 초기화(static 필드)
      
         ​	`java에서 static으로 선언할 경우 클래스 로더가 JVM에 올릴때 static이 생성된다.`
      
@@ -85,5 +85,5 @@
 <참조>
 
 - [JVM이란 무엇인가?](https://www.itworld.co.kr/news/110837)
-- <https://github.com/fake-developers/1st/blob/KJY-02/KJY/%5BJAVA%5D%20%EC%9E%90%EB%B0%94%20%EC%96%B8%EC%96%B4%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md>
-- <https://github.com/fake-developers/1st/blob/JYJ-02/JYJ/JavaOperation.md>
+- <https://github.com/fake-developers/1st/blob/main/KJY/%5BJAVA%5D%20%EC%9E%90%EB%B0%94%20%EC%96%B8%EC%96%B4%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md>
+- <https://github.com/fake-developers/1st/blob/main/JYJ/JavaOperation.md>
