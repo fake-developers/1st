@@ -1,4 +1,4 @@
-# BJY
+# [BJY
 
 <br/>
 
@@ -27,4 +27,11 @@
 - [x] [자바 언어 동작 원리](./자바%20언어%20동작%20원리.md)
 - [x] [HTTP와 HTTPS](./Http%26Https.md)
 - [x] [Singleton 패턴](./Singleton%20Pattern.md)
+
+
+
+## 6주차
+
+- [ ] [[JAVA]Java Collection](./Java Collection.md)
+- [ ] [JAVA]Collection Framework](./Collection Framework[ArrayList, LinkedList].md)
 
