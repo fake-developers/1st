@@ -21,9 +21,9 @@
 - 대표적인 List 컬렉션 클래스
 
   1. ArrayList\<E>
-2. LinkedList\<E>
+  2. LinkedList\<E>
   3. Vector\<E>
-4. Stack\<E>
+  4. Stack\<E>
 
 <br>
 
@@ -31,10 +31,16 @@
 
 - 저장 용량을 초과한 객체들이 들어오면 자동적으로 저장용량이 늘어나는 구조
 
-- JDK 1.2 부터 제공된내부적으로 배열을 이용하여 객체 저장
+  - 기본 생성자로 ArrayList 객체를 생성하면 내부에 10개의 객체를 저장할 수 있는 초기 용량을 가짐
+  - 저장되는 객체 수가 늘어나면 자동적으로 증가하지만, 처음부터 크게 용량을 잡기 가능
+    - `ArrayList<String> list = new ArrayList<String>(30);`
+
+- JDK 1.2 부터 제공된 ArrayList는 내부적으로 배열을 이용하여 객체 저장
 
   - 인덱스를 이용해 배열 요소에 빠르게 접근가능
-  - 하지만 크기를 늘리기 위해서 새로운 배열을 생성하고 기존의 요소들을 옮겨야하는 복잡한 과정
+  - 하지만 크기를 늘리기 위해서 새로운 배열을 생성하고 기존의 요소들을 옮겨야하는 복잡한 과정이 필요
+
+- 특정 인덱스의 객체를 제거하면 바로 뒤 인덱스 부터 마지막 인덱스까지 모두 앞으로 1씩 당겨진다. 마찬가지로 특정 인덱스에 객체를 삽입하면 해당 인덱스부터 마지막 인덱스까지 모두 1씩 밀린다.
 
 - 동기화를 보장하지 않으며, 동기화가 필요할 때는 `Collections.synchronizeList()`메서드를 통해 동기화가 보장되는 List를 반환받아 사용한다.
 
@@ -99,6 +105,8 @@
   
   - Collections 클래스는 JDK 1.2부터 제공되는 컬렉션에서 동작하거나 컬렉션을 반환하는 클래스 메소드 만으로 구성된 클래스이다.
   - Collections는 클래스, Collection은 인터페이스임을 주의해야한다.
+
+<br>
 
 ## LinkedList
 
@@ -174,12 +182,23 @@
   - 위의 예제를 살펴보면 ArrayList와 LinkedList의 메서드가 거의 같은 것을 볼 수 있따.
   - 이처럼 **ArrayList와 LinkedList의 차이**는 사용 방법이 아닌, **내부적으로 요소를 저장하는 방법에 있다.**
 
+#### +) ArrayList vs LinkedList
+
+| **구분**   | **순차적으로 추가/삭제** | **중간에 추가/삭제** | **검색** |
+| ---------- | ------------------------ | -------------------- | -------- |
+| ArrayList  | 빠르다                   | 느리다               | 빠르다   |
+| LinkedList | 느리다                   | 빠르다               | 느리다   |
+
+<br>
+
 ## Vector
 
 - JDK 1.0부터 상요해온 ArrayList 클래스와 같은 동작을 수행하는 클래스
   - ArrayList와 같은 구조를 가지고 있으나 동기화된 메서드로 구성되어 있어 멀티 쓰레딩 구조에 안정적이다.
 - 과거에 대용량 처리를 위해 사용했으나, 비교적 성능이 좋지 않고 무거워 잘 쓰지 않는다.
   - 현재에는 기존 코드와의 호환성을 위해서만 남아있다.
+
+<br>
 
 ## Stack
 
@@ -257,9 +276,8 @@
 
 **<참조>**
 
-- [Java - Collection Framework](http://hochulshin.com/java-collection-framework/)
-
 - <http://www.tcpschool.com/java/java_collectionFramework_list>
 
 - [[Java/Collection] Java Collection Framework에 대한 이해를 통해 Data Structure 이해하기.](https://postitforhooney.tistory.com/entry/JavaCollection-Java-Collection-Framework%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4%EB%A5%BC-%ED%86%B5%ED%95%B4-Data-Structure-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 
+-  [[Java]Collection Framework1 - List(ArrayList / Vector / LinkedList)](https://minhamina.tistory.com/14)
