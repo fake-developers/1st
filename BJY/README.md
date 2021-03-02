@@ -1,4 +1,4 @@
-# [BJY
+# [][BJY
 
 <br/>
 
@@ -32,6 +32,6 @@
 
 ## 6주차
 
-- [ ] [[JAVA]Java Collection](./Java Collection.md)
-- [ ] [JAVA]Collection Framework](./Collection Framework[ArrayList, LinkedList].md)
+- [ ] [[JAVA]Java Collection](./Java%20Collection.md)
+- [ ] [[JAVA]Collection Framework](./Collection%20Framework%5BArrayList%2C%20LinkedList%5D.md)
 
