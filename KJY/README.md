@@ -68,5 +68,7 @@
 
 ## 6주차
 
-- [ ] [JAVA] Collection Framework [Set 컬렉션]
-- [ ] [JAVA] Collection Framework [Map 컬렉션]
+- [x] [JAVA] Collection Framework [Set 컬렉션]
+- [x] [JAVA] Collection Framework [Map 컬렉션]
+
+<br/>
