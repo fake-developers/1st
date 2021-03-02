@@ -46,15 +46,29 @@
 
 컴파일 시점에서 객체의 타입을 체크하기 때문에 런타임 에러를 줄이는 데 도움이 된다. 예를 들어 런타임 시 발생하는 ClassCastException을 컴파일 시점에서 찾아낼 수 있다. 또한 클래스 캐스팅을 하지 않아도 되고 instansof를 사용하지 않아도 되므로 코드를 좀 더 깔끔하게 유지할 수 있다.
 
-**대표적인 인터페이스**
+**컬렉션 인터페이스의 분류**
 
-* List 인터페이스
-* Set 인터페이스
-* Map 인터페이스
+* **Collection 인터페이스**
 
-#### Collection 인터페이스의 대표적인 메소드
+* **Map 인터페이스**
 
-직접적인 구현은 제공하지 않으며 모든 컬렉션 클래스가 구현해야 하는 메서드를 포함하고 있다.
+  구조상의 차이(Key-Value)로 인해 Collection 인터페이스를 상속받지 않고 별도로 정의된다.
+
+* **기타 인터페이스**
+
+#### - Collection 인터페이스 그룹
+
+직접적인 구현은 제공하지 않으며 모든 컬렉션 클래스가 구현해야 하는 메서드를 포함하고 있다. 
+
+1. **List 인터페이스**
+
+   순서가 있는 컬렉션이며 중복 요소를 포함할 수 있다. 인덱스로 모든 요소에 접근할 수 있으며, List 인터페이스로 구현된 클래스는 ArrayList, Linkedlist가 있다.
+
+2. **Set 인터페이스**
+
+   중복요소를 포함할 수 없으며 랜덤 액세스(Random access)를 허용하지 않으므로, iterator 또는 foreach를 이용하여 요소를 탐색할 수 있다. Set 인터페이스로 구현된 클래스는 HashSet, TreeSet, LinkedHashSet이 있다.
+
+**대표적인 메소드들**
 
 * boolean add(E e) : 해당 컬렉션에 전달된 요소를 추가
 * boolean remove(Object o) : 해당 컬렉션에서 전달된 객체를 제거
@@ -64,6 +78,40 @@
 * boolean isEmpty() : 해당 컬렉션의 반복자(iterator)를 반환
 * int size() : 해당 컬렉션의 요소의 총개수를 반환
 * Object [] toArray() : 해당 컬렉션의 모든 요소를 Object 타입의 배열로 반환
+
+#### - Map 인터페이스 그룹
+
+1. **Map 인터페이스**
+
+   키와 값을 매핑한다. 중복 키가 존재할 수 없으며 각 키는 하나의 값만 매핑할 수 있다. Map의 기본 연산은 put, get, containsKey, containsValue, size, isEmpty 등이 있다. Map 인터페이스로 구현된 클래스는 HashMap, TreeMap, LinkedHashMap이 있다.
+
+2. **SortedMap 인터페이스**
+
+   매핑을 오름차순의 키 순서로 유지하는 Map이다. 구현된 클래스는 TreeMap이 있다.
+
+#### - 기타 인터페이스 그룹
+
+1. **Iterator 인터페이스**
+
+   어떤 컬렉션이든 반복적으로 수행하기 위한 메서드를 제공한다. **컬렉션 프레임워크에서는 Enumeration 대신 Iterator를 사용하며, 컬렉션 클래스의 Iterator는 Iterator 디자인 패턴을 구현한다.** iterator 메서드를 통해 컬렉션으로부터 iterator instance를 가져올 수 있고 컬렉션을 순회하는 도중에 엘리먼트들을 삭제할 수 있다.
+
+   ~~~
+   Enumeration 인터페이스
+   
+   객체들의 집합(Vector)에서 각각의 객체들을 한순간에 하나씩 처리할 수 있는 메소드를 제공하는 컬렉션이다.
+   ~~~
+
+2. **ListIterator 인터페이스**
+
+   어느 방향이든 목록을 탐색하고 반복하면서 목록을 수정하고, 목록에서 반복자의 현재 위치를 가져올 수 있다. ListIterator에는 현재의 요소가 없다. 커서 위치는 항상 previous()에 대한 호출에 의해 반환될 요소와 next()에 대한 호출에 의해 반환될 요소 사이에 위치한다.
+
+3. **Concurrent 인터페이스 그룹**
+
+   - BlockingQueue 인터페이스
+   - TransferQueue 인터페이스
+   - BlockingDeque 인터페이스
+   - ConcurrentMap 인터페이스
+   - ConcurrentNavigableMap 인터페이스
 
 <br/>
 
@@ -128,4 +176,5 @@ Collection 클래스는 모든 컬렉션의 알고리즘을 담당한다. 유틸
 * [Java 컬렉션 정리3](https://gbsb.tistory.com/247#java-collections-algorithms)
 * [Java 컬렉션 정리4](https://shlee0882.tistory.com/97)
 * [상호운용성](https://ko.wikipedia.org/wiki/%EC%83%81%ED%98%B8%EC%9A%B4%EC%9A%A9%EC%84%B1)
+* [Enumeration](https://hyeonstorage.tistory.com/210)
 
