@@ -73,6 +73,6 @@
 ## 6주차
 
 
-- [[Java] Collection]()
-- [[Java] Collection - List]()
+- [[Java] Collection](./Collection.md)
+- [[Java] Collection - List](./Collection-List.md)
 
