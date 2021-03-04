@@ -104,7 +104,10 @@
   ~~~
   
   - Collections 클래스는 JDK 1.2부터 제공되는 컬렉션에서 동작하거나 컬렉션을 반환하는 클래스 메소드 만으로 구성된 클래스이다.
-  - Collections는 클래스, Collection은 인터페이스임을 주의해야한다.
+  
+  - Collections는 클래스, Collection은 인터페이스임을 주의해야한다
+  
+    :bulb:*위의 Collections와 Collection에 대해 더 자세한 내용이 궁금하다면 [여기](./Collection.md) 클릭*
 
 <br>
 
@@ -230,7 +233,7 @@
 
 - ex_)
 
-  ~~~java
+  ~~~:bulb:
   Stack<Integer> st = new Stack<Integer>(); // 스택의 생성
   //Deque<Integer> st = new ArrayDeque<Integer>();
   
@@ -268,7 +271,6 @@
   //실행결과 1
   ~~~
 
-  
 
 <br>
 
