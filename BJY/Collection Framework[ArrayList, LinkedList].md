@@ -176,6 +176,10 @@ Collections.sort(list, new Comparator<A>() {
 
 <br/>
 
+<br/>
+
+<br/>
+
 ### REFERENCE
 
 * [List 컬렉션](https://oper6210.tistory.com/35)
