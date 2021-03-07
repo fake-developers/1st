@@ -61,10 +61,10 @@
 
 - [[Java] Abstract와 Interface](./Abstract&Interface.md)
 - [[Web] WAS와 Web Server](./WAS&Web%20Server.md)
-- [[DB] SQL, DDL, DML, DCL]()
-- [[Java] 제네릭]()
-- [[DB] RDBMS와 NoSQL 차이]()
-- [[Java] static과 final의 차이]()
+- [[DB] SQL, DDL, DML, DCL](./SQL,%20DDL,%20DML,%20,DCL.md)
+- [[Java] 제네릭](./Generic.md)
+- [[DB] RDBMS와 NoSQL 차이](./RDBMS&NoSQL%20Difference.md)
+- [[Java] static과 final의 차이](./Static&Final%20Difference.md)
 
 
 
@@ -73,6 +73,8 @@
 ## 6주차
 
 
-- [[Java] Collection]()
-- [[Java] Collection - List]()
+- [[Java] Collection](./Collection.md)
+- [[Java] Collection - List](./Collection-List.md)
+- [[Java] Collection - Set](./Collection-Set.md)
+- [[Java] Collection - Map](./Collection-Map.md)
 
