@@ -70,5 +70,7 @@
 
 - [x] [[JAVA] Collection Framework [Set 컬렉션]](./%5BJAVA%5D%20컬렉션%20프레임워크%20-%20Set%20컬렉션.md)
 - [x] [[JAVA] Collection Framework [Map 컬렉션]](./%5BJAVA%5D%20컬렉션%20프레임워크%20-%20Map%20컬렉션.md)
+- [x] [[JAVA] Collection](./%5BJAVA%5D%20Collection.md)
+- [x] [[JAVA] Collection Framework [List 컬렉션]](./%5BJAVA%5D%20컬렉션%20프레임워크%20-%20List%20컬렉션.md)
 
 <br/>
