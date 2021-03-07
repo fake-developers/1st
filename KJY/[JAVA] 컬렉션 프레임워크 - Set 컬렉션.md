@@ -209,6 +209,21 @@
       }
       ```
 
+* +) **해쉬 알고리즘과 hashCode 메소드**
+
+  - 동일한 인스턴스의 존재 여부를 확인하는 클래스가 HashSet<E\>
+
+  - 즉 탐색 과정은
+    - 1단계 : Object 클래스에 정의된 hashCode 메소드의 반환 값을 기반으로 부류 결정
+    - 2단계 : 선택된 부류 내에서 eqauls 메소드를 호출하여 동등 비교
+
+  - Object 클래스에 정의되어 있는 hashCode와 equals 메소드는 다음과 같이 정의되어 있음
+    - 인스턴스가 다르면 Object 클래스의 hashCode 메소드는 다른 값을 반환
+    - 인스턴스가 다르면 Object 클래스의 equals 메소드는 false를 반환
+  - 참고로, Object 클래스의 hashCode 메소드는 인스턴스가 저장된 **주솟값**을 기반으로 반환 값이 만들어지도록 정의되어 있음
+    - 즉, Object 클래스의 hashCode와 equals는 저장하고 있는 값을 기준으로 동등 여부를 따지지 않음
+    - 값을 기준으로 동등 여부를 따지려면 두 메소드를 오버라이딩 해야 함
+
 <br/>
 
 ## 3. TreeSet
@@ -279,11 +294,84 @@
     | NavigableSet< E > | tailSet( E fromElement, boolean inclusive )                  | 주어진 객체보다 높은 객체들을 NavigableSet으로 리턴.<br />주어진 객체 포함 여부는 두 번째 파라미터에 따라 달라짐 |
     | NavigableSet< E > | subSet( E fromElement, boolean frominclusive, E toElement, boolean toinclusive ) | 시작과 끝으로 주어진 객체 사이의 객체들을 NavigableSet으로 리턴.<br />시작과 끝 객체의 포함 여부는 두 번째, 네 번째 파라미터에 따라 달라짐 |
 
-    
 
 <br/>
 
-## :bulb: 예상질문
+* +) 수의 경우에는 크고 작음의 기준이 명확하지만, String name, int age 가 동시에 존재하는 경우에는 이름 오름차순인지, 나이 오름차순인지에 대한 기준을 프로그래머가 결정해야 함
+  - Comparable<T\>을 사용하여 기준을 정함
+
+* +) **인스턴스의 비교 기준을 정의하는 Comparable<T\> 인터페이스의 구현 기준**
+
+  - Comparable<T\> 인터페이스를 구현할 때 정의해야 할 추상 메소드
+    - `int compareTo(T o)`
+    - 정의 방법
+      - 인자로 전달된 o가 작다면 양의 정수 반환
+      - 인자로 전달된 o가 크다면 음의 정수 반환
+      - 인자로 전달된 o와 같다면 0을 반환
+    - ex) `my.comareTo(your);`
+      - your가 my 보다 작다면 양의 정수, 반대면 음의 정수를 반환하도록 구현
+      - TreeSet<E\>는 compareTo 메소드의 호출결과를 바탕으로 정렬을 유지
+
+  - 예제
+
+    ```java
+    import java.util.TreeSet;
+    
+    class Person implements Comparable<Person>{
+        private String name;
+        private int age;
+    
+        public Person(String name, int age){
+            this.name = name;
+            this.age = age;
+        }
+    
+        @Override
+        public String toString(){ return name + " : " + age; }
+    
+        @Override
+        public int compareTo(Person p){
+            return this.age - p.age; // 인자로 전달된 것이 크면 음수 --> 뒤로 배치
+        }
+    }
+    
+    public class ComparablePerson {
+        public static void main(String[] args){
+            TreeSet<Person> tree = new TreeSet<>();
+            tree.add(new Person("YOON", 37));
+            tree.add(new Person("HONG", 53));
+            tree.add(new Person("PARK", 20));
+    
+            System.out.println(tree);
+        }
+    }
+    ```
+
+    ![img](https://github.com/fake-developers/1st/raw/JYJ-06/JYJ/resources/ComparablePerson.JPG)
+
+    - 인자로 전달된 인스턴스의 나이가 더 많으면 음수가 반환됨
+
+      - 정렬 순서상 뒤쪽에 위치하게 됨
+
+    - 나이가 많은 사람을 앞으로 하고 싶으면 p.age - this.age 로 바꾸면 됨
+
+      - 그러나 일시적인 기준 변경이라면 메소드를 수정하는 것보다 이러한 상황을 고려하여 제공되는 다음 인터페이스를 사용함
+
+      - ```
+        public interface Comparator<T>
+        ```
+
+        - `int compare(T o1, T o2)`
+
+      - 이 인터페이스를 구현한 클래스의 인스턴스는 다음 생성자를 통해 전달할 수 있음
+
+        - `public TreeSet(Comparator<? super E> comparator)`
+
+      - 이렇게 생성된 TreeSet<E\>의 인스턴스는 생성자로 전달된 인스턴스의 compare 메소드의 호출 결과를 기준으로 정렬을 진행
+
+        - o1 이 o2 보다 크면 양의 정수 반환
+        - o1 이 o2 보다 작으면 음의 정수 반환
+        - o1 이 o2 와 같으면 0 반환
 
 <br/>
 
