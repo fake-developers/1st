@@ -32,6 +32,8 @@
 
 ## 6주차
 
-- [ ] [[JAVA]Java Collection](./Java%20Collection.md)
-- [ ] [[JAVA]Collection Framework](./Collection%20Framework%5BArrayList%2C%20LinkedList%5D.md)
+- [x] [[JAVA]Java Collection](./Java%20Collection.md)
+- [x] [[JAVA]List Collection(ArrayList, LinkedList)](./Collection%20Framework%5BArrayList%2C%20LinkedList%5D.md)
+- [x] [[JAVA]Set Collection(HashSet, TreeSet)](./Collection%20Framework%5BHashSet%2C%20TreeSet%5D.md)
+- [x] [[JAVA]Map Collection(HashMap, TreeMap)](./Collection%20Framework%5BHashMap%2C%20TreeMap%5D.md)
 
