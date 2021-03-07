@@ -11,7 +11,7 @@
 * 개발에 소요되는 시간을 절약하고 최적화된 라이브러리를 사용할 수 있음
 * 핵심 인터페이스
   * ![interface](https://blog.kakaocdn.net/dn/cl4iFr/btqw5hdraXw/Uty6Oxx28DvZ6Ea1WfmJAk/img.png)
-* 자세한 내용 : [Java의 Collection Framework - 참고]()
+* 자세한 내용 : [Java의 Collection Framework - 참고](https://github.com/fake-developers/1st/blob/KJY-06/KJY/%5BJAVA%5D%20Collection.md)
 
 
 ***
