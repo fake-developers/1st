@@ -233,7 +233,7 @@
 
 - ex_)
 
-  ~~~:bulb:
+  ~~~java
   Stack<Integer> st = new Stack<Integer>(); // 스택의 생성
   //Deque<Integer> st = new ArrayDeque<Integer>();
   
