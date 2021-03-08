@@ -78,7 +78,7 @@
 
 ## 6주차
 
-- [x] [[Java]Java Collection Framework](./JavaCollection)
-- [x] [[Java]자바 컬렉션 프레임 워크 - List](./ListCollection)
+- [x] [[Java]Java Collection Framework](./JavaCollection.md)
+- [x] [[Java]자바 컬렉션 프레임 워크 - List](./ListCollection.md)
 - [x] [[Java]HashSet과 TreeSet](./HashSetAndTreeSet.md)
 - [x] [[Java]HashMap과 TreeMap](./HashMapAndTreeMap.md)
