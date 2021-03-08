@@ -32,10 +32,10 @@
 
   | 기능      | 메소드                                                       | 설명                                                         |
   | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | 객체 추가 | - boolean add(E element) - void add(int index, E element) - E set( int index, E element) | - 해당 주어진 객체를 맨 끝 인덱스에 추가 - 해당 인덱스에 객체 추가 - 해당 인덱스에 주어진 객체로 변경 |
-  | 객체 검색 | - boolean contains(Object object) - E get(int index) - boolean isEmpty() - int size() | - 주어진 객체가 저장되어 있는지 여부 확인 - 해당 인덱스에 저장된 객체 리턴 - 켈렉션이 비어 있는지 조사 - 저장되어 있는 전체 객체 수를 리턴 |
-  | 객체 삭제 | - void clear() - E remove(int index) - boolean remove(Object o) | - 저장된 모든 객체를 삭제 - 해당 인덱스 객체 삭제 - 주어진 객체를 삭제 |
-  | 기타      | - Iterator iterator() - boolean equals(Object o) - Object[] toArray() | - 해당 리스트의 반복자(iterator)를 반환 - 해당 리스트와 전달된 객체가 같은지 확인 - 해당 리스트의 모든 요소를 Object 타입의 배열로 반환 |
+  | 객체 추가 | - boolean add(E element) <br/>- void add(int index, E element) <br/>- E set( int index, E element) | - 해당 주어진 객체를 맨 끝 인덱스에 추가 <br/>- 해당 인덱스에 객체 추가 <br/>- 해당 인덱스에 주어진 객체로 변경 |
+  | 객체 검색 | - boolean contains(Object object) <br/>- E get(int index) <br/>- boolean isEmpty() <br/>- int size() | - 주어진 객체가 저장되어 있는지 여부 확인 <br/>- 해당 인덱스에 저장된 객체 리턴 <br/>- 켈렉션이 비어 있는지 조사 <br/>- 저장되어 있는 전체 객체 수를 리턴 |
+  | 객체 삭제 | - void clear() <br/>- E remove(int index) <br/>- boolean remove(Object o) | - 저장된 모든 객체를 삭제 <br/>- 해당 인덱스 객체 삭제 <br/>- 주어진 객체를 삭제 |
+  | 기타      | - Iterator iterator() <br/>- boolean equals(Object o) <br/>- Object[] toArray() | - 해당 리스트의 반복자(iterator)를 반환 <br/>- 해당 리스트와 전달된 객체가 같은지 확인 <br/>- 해당 리스트의 모든 요소를 Object 타입의 배열로 반환 |
 
 <br/>
 
