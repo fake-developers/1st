@@ -79,8 +79,7 @@
 
 ## 7주차
 
-- [x] [[JAVA] Error & Exception]()
-- [x] [[JAVA] Boxing & Unboxing]()
+- [x] [[JAVA] Error & Exception](./%5BJAVA%5D%20Error%20%26%20Exception.md)
+- [x] [[JAVA] Boxing & Unboxing](./%5BJAVA%5D%20Boxing%20%26%20Unboxing.md)
 
 <br/>
-
