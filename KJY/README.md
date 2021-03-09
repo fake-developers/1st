@@ -80,7 +80,7 @@
 ## 7주차
 
 - [x] [[JAVA] Error & Exception]()
-- [ ] [[JAVA] 박싱과 언박싱]()
+- [x] [[JAVA] Boxing & Unboxing]()
 
 <br/>
 
