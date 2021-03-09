@@ -79,7 +79,7 @@
 
 ## 7주차
 
-- [ ] [[JAVA] Error & Exception]()
+- [x] [[JAVA] Error & Exception]()
 - [ ] [[JAVA] 박싱과 언박싱]()
 
 <br/>
