@@ -76,3 +76,11 @@
 - [x] [[JAVA] Collection Framework [List 컬렉션]](./%5BJAVA%5D%20컬렉션%20프레임워크%20-%20List%20컬렉션.md)
 
 <br/>
+
+## 7주차
+
+- [ ] [[JAVA] Error & Exception]()
+- [ ] [[JAVA] 박싱과 언박싱]()
+
+<br/>
+
