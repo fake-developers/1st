@@ -84,8 +84,8 @@
 
 ## 7주차
 
-- [[Java] Call by 와 Call by Reference](./Call%20by%20value%20vs%20Call%20by%20reference.md)
-- [[Java] Java에서 이노테이션이란]()
+- [[Java] Call by value와 Call by Reference](./Call%20by%20value%20vs%20Call%20by%20reference.md)
+- [[Java] Java에서 이노테이션이란](./Java%20Annotation.md)
 - [[Java] error & exception]()
 - [[Java] 박싱과 언박싱]()
 

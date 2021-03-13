@@ -56,10 +56,10 @@
 
   ~~~java
   public class SwapTest {
-      public static void swap(Integer a, Integer b) {
-          Integer tmp = a;
-          a = b;
-          b = tmp;
+      public static void swap(Integer one, Integer two) {
+          Integer tmp = one;
+          one = two;
+          two = tmp;
       }
    
       public static void main(String[] args) {
@@ -80,7 +80,14 @@
   ~~~
 
   - 위와 같이 참조형 타입인 Integer을 이용해 객체를 매개변수로 받아 두 매개 변수의 값을 swap 한 후 에도 결과 값은 swap 되기 전의 값으로 그대로 출력이 된다.
-  - Call by reference는 맞지만 메서드 호출을 할 때 새로운 reference를 만들어 복사해 호출한다는 것이다.
+
+    <img src="https://user-images.githubusercontent.com/58902042/111024805-01decd80-8424-11eb-9d80-d148bd080001.png" height=210> 
+
+    - Call by reference는 맞지만 메서드 호출을 할 때 새로운 reference를 만들어 복사해 호출하기 때문이다. 
+
+    <img src="https://user-images.githubusercontent.com/58902042/111024804-01463700-8424-11eb-85aa-c898ddbaa37a.png" height=210> 
+
+    - 위의 그림에서 볼 수 있듯이 객체를 호출하지만, 객체의 자체를 복사해서 리턴하므로 객체의 값을 swap하는 것으로 안의 원본 값을 바꿀 수 없다.
 
 - 즉, Call of Value는 값을 직접 전달 받기 때문에 실제 swap을 해 값을 변경했다 하더라도 **원본 데이터는 바뀌지 않고, 단순히 복사된 값을 바꾸는 것에 불과하다**
 
@@ -123,7 +130,7 @@
 
   - 객체를 참조하는 주소를 매개변수로 넘겨줘 수행한 결과 값은 실제 swap이 이루어짐을 볼 수 있는데, 
 
-     <img src="https://user-images.githubusercontent.com/58902042/110288792-df1b7600-802b-11eb-8220-eb3ccd95889d.png" height=200>
+     <img src="https://user-images.githubusercontent.com/58902042/110288792-df1b7600-802b-11eb-8220-eb3ccd95889d.png" height=200> 
 
     - one과 two는 값의 주소를 복사(Call by value)받아 같은 인스턴스를 참조하지만,
 
