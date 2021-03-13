@@ -2,10 +2,14 @@
 
 :writing_hand: *Assembled by Yunju Jang*
 
-<!-- 🤝*Contributors : JeongHea Shin, JiYe Bae*  -->
+🤝*Contributors : JeongHea Shin*
 
 <hr>
+
+
+
 #### 참고) 자바의 타입
+
 
 - <b> 기본 타입</b>
   - 정수, 실수, 문자, 논리 리터럴을 저장하는 타입
@@ -110,18 +114,18 @@ boolean d = true; // 3
 #### Call by value 와 Call by reference 차이
 
 - <b>Call by value란?</b>
-  - 함수의 호출 방식 중 하나, <mark>값에 의한 호출</mark>
+  - 함수의 호출 방식 중 하나, 값에 의한 호출
     - 메소드 (함수) 에서 인자값을 받을 때 어떤식으로 받아 올 것인지에 대한 방식이다.
   - 함수가 호출될 때 메모리 공간 안에서는 <b>임시의 공간</b>이 생성된다.
     - 그리고 함수가 종료되면 해당 공간은 사라진다.
-  - <mark>함수 호출 시 전달되는 변수의 값을 복사하여 인자로 전달한다.</mark>
+  - 함수 호출 시 전달되는 변수의 값을 복사하여 인자로 전달한다.
     - 복사된 인자는 함수 안에서 <b>지역적</b>으로 사용되는 변수이다.
     - ex) <code>int a = 3</code> 은 메소드에서 인자값을 받을 때 a라는 자체에 주소를 받는게 아니라 a의 값인 3을 받아 처리하는 방식이다.
   - Java의 경우 함수에 전달되는 인자의 데이터 타입에 따라 기본자료형 또는 참조자료형으로 함수 호출 방식이 나뉜다.
 
 <br/>
 
-- <b>call by reference란?</b>
+- <b>Call by reference란?</b>
   - 참조에 의한 호출
   - 메소드 호출 시, 메모리 공간 안에서는 함수를 위한 <b>별도의 임시 공간</b>이 생성된다.
     - 역시 함수 종료 시 사라진다.
@@ -176,6 +180,7 @@ boolean d = true; // 3
 - <b>call by reference 예시</b>
 
   ```  java
+  // 참조형 타입의 Call By Reference
   class Number {
       int value;
       
@@ -209,15 +214,16 @@ boolean d = true; // 3
   
   // 결과
   // 20 - 10 = 10
-  ```
-
-  - 객체를 참조하는 주소를 매개변수로 넘겨줘 수행한 결과 값이 실제 swap이 이루어진 것을 볼 수 있다.
-
-  - call by reference의 경우 객체의 참조 값을 직접 바꾼 것이 아니라 객체의 참조를 통해서 해당 객체의 멤버 변수에 접근하여 값을 바꿔 연산이 수행됨을 알 수 있다.
-
-    - 그러나 참조형을 함수의 매개변수로 전달해 바꿔보면 call by value 형식으로 작동된다.
-
+```
+  
+- 객체를 참조하는 주소를 매개변수로 넘겨줘 수행한 결과 값이 실제 swap이 이루어진 것을 볼 수 있다.
+  
+- call by reference의 경우 객체의 참조 값을 직접 바꾼 것이 아니라 객체의 참조를 통해서 해당 객체의 멤버 변수에 접근하여 값을 바꿔 연산이 수행됨을 알 수 있다.
+  
+  - 그러나 참조형을 함수의 매개변수로 전달해 바꿔보면 call by value 형식으로 작동된다.
+  
     ``` java
+    // 참조형 타입의 Call By Value
     class Node {
         int value;
      
@@ -255,10 +261,11 @@ boolean d = true; // 3
     ====After===
     node1 value : 1
     node2 value : 2
-    */
-    ```
-
+  */
+  ```
+    
     - 이렇게 매개변수로 전달된 node1, node2의 필드 값이 각각 2, 1로 바뀌지 않고 그대로 1, 2로 출력이 되었다.
+    - 메서드를 호출할 때 새로운 reference를 만들어 복사해 호출했기 때문이다. 원본 데이터는 바뀌지 않고, 복사된 값을 바꾸는 것에 불과하다.
     - 이렇듯 자바의 참조형은 Call By Reference가 아니며, 기본 Call By Value 형식으로 동작함을 알 수 있다.
 
 <br/>
@@ -267,7 +274,7 @@ boolean d = true; // 3
 
 #### Call by value 와 Call by reference 를 통한 중요한 자바의 특징
 
-<img src='javaMemory.png' width='400px' align='center'>
+<img src='resources/javaMemory.png' width='450px' align='center'>
 
 - 자바는 객체 (참조 타입) 을 메서드로 넘길 때 참조하는 지역 변수의 실제 주소를 넘기는 것이 아니라,
   - <b>해당 지역변수가 가리키고 있는 힙 영역의 객체를 가리키는, 새로운 지역변수를 생성하여</b> 그것을 통해 <b>같은 객체를 가리키도록 하는 방식</b>임을 알 수 있다.
@@ -283,7 +290,9 @@ boolean d = true; // 3
 
 ## 예상질문❔
 
+Q1) Call By Value와 Call By Reference란 무엇인가?
 
+A1) 메서드에서 인자값을 받아오는 방식으로, Call By Value를 인자의 메모리에 저장되어 있는 데이터를 복사한 값을 받아온다. Call By Reference는 주소에 의한 호출로, 인자의 메모리에 저장되어 있는 주소 값을 복사하여 받아온다. 즉, 값이 아닌 값의 주소를 통해 변수를 가리킨다.
 
 <br/>
 
