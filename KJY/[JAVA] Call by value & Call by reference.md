@@ -9,7 +9,7 @@
 - **메서드에서 인자값을 받을 때 어떤식으로 받아올 것인지에 대한 방식**
 - Call by value : 값에 의한 호출
 - Call by reference : 참조에 의한 호출
-- JAVA의 경우, 함수에 전달되는 인자의 **데이터 타입(기본자료형/참조자료형)에 따라 메서드 호출방식이 달라짐 **
+- JAVA의 경우, 함수에 전달되는 인자의 **데이터 타입(기본자료형/참조자료형)에 따라 메서드 호출방식이 달라짐**
   - 기본 자료형 : call by value 로 동작 (int, short, long, float, double, char, boolean)
   - 참조 자료형 : call by reference 로 동작 (Array, Class Instance)
     - 해당 객체의 주소값을 직접 넘기는 것이 아니라 객체를 가리키는 또 다른 주소값을 만들어서 넘김
