@@ -13,7 +13,7 @@
   - 기본 자료형 : call by value 로 동작 (int, short, long, float, double, char, boolean)
   - 참조 자료형 : call by reference 로 동작 (Array, Class Instance)
     - 해당 객체의 주소값을 직접 넘기는 것이 아니라 객체를 가리키는 또 다른 주소값을 만들어서 넘김
-- 결과적으로 **자바 내에서 메서드의 기본 형식은 Call by Value로 동작** - [3. 참고](#3. Call by value 와 Call by reference 를 통한 중요한 자바의 특징)
+- 결과적으로 **자바 내에서 메서드의 기본 형식은 Call by Value로 동작** - [3. 참고]
 
 <br/>
 
