@@ -81,5 +81,7 @@
 
 - [x] [[JAVA] Error & Exception](./%5BJAVA%5D%20Error%20%26%20Exception.md)
 - [x] [[JAVA] Boxing & Unboxing](./%5BJAVA%5D%20Boxing%20%26%20Unboxing.md)
+- [ ] [[JAVA] Call by value & Call by reference](./%5BJAVA%5D%20Call%20by%20value%20%26%20Call%20by%20reference.md)
+- [ ] [[JAVA] Annotation](./%5BJAVA%5D%20Annotation.md)
 
 <br/>
