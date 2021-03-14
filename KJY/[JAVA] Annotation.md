@@ -314,8 +314,7 @@ public class AnnotationPlacement {
   - 자바 컴파일러는 어노테이션이 클래스 또는 RUNTIME의 RetentionPolicy를 갖는 경우, 조건부로 메타 데이터를 .class 파일에 저장함
     - 이로써 나중에 JVM 또는 다른 프로그램이 메타 데이터를 찾아 프로그램 요소와 상호작용하거나 동작을 변경하는 방법을 결정할 수 있음
     - 그래서 어노테이션을 정의할 때 @Retention(RetentionPolicy.RUNTIME)을 써주어야 함
-
-<
+<br/>
 
 ## :page_with_curl: Reference
 
