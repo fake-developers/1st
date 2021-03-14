@@ -91,9 +91,9 @@
    public calss UsingSingleValueAnnotation{
        
    }
-```
-   
-1. **멀티 값 어노테이션 (Multi Value Annotation)**
+   ```
+
+3. **멀티 값 어노테이션 (Multi Value Annotation)**
 
    - 둘 이상의 변수를 갖는 어노테이션
    - 데이터를 key-value 형태로 전달함
