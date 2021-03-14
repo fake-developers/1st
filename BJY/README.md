@@ -45,5 +45,8 @@
 
 ## 7주차
 
-- [ ] [[JAVA]Error & Exception](./Error%20%26%20Exception.md)
-- [ ] [[JAVA]Boxing & Unboxing](./Boxing%26Unboxing.md)
+- [x] [[JAVA]Boxing & Unboxing](./Boxing%26Unboxing.md)
+- [x] [[JAVA]Call by value & Call by reference](./Call%20by%20value%26Cally%20by%20refrence.md)
+- [x] [[JAVA]Error & Exception](./Error%20%26%20Exception.md)
+- [x] [[JAVA]Java Annotation](./Java%20Annotation.md)
+
