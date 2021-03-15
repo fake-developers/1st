@@ -29,6 +29,7 @@
 - [x] [Singleton 패턴](./Singleton%20Pattern.md)
 
 <br/>
+
 <br/>
 
 ## 6주차
@@ -37,4 +38,15 @@
 - [x] [[JAVA]List Collection(ArrayList, LinkedList)](./Collection%20Framework%5BArrayList%2C%20LinkedList%5D.md)
 - [x] [[JAVA]Set Collection(HashSet, TreeSet)](./Collection%20Framework%5BHashSet%2C%20TreeSet%5D.md)
 - [x] [[JAVA]Map Collection(HashMap, TreeMap)](./Collection%20Framework%5BHashMap%2C%20TreeMap%5D.md)
+
+<br/>
+
+<br/>
+
+## 7주차
+
+- [x] [[JAVA]Boxing & Unboxing](./Boxing%26Unboxing.md)
+- [x] [[JAVA]Call by value & Call by reference](./Call%20by%20value%26Cally%20by%20refrence.md)
+- [x] [[JAVA]Error & Exception](./Error%20%26%20Exception.md)
+- [x] [[JAVA]Java Annotation](./Java%20Annotation.md)
 
