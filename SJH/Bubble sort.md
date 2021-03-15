@@ -155,6 +155,6 @@
 
 - [[알고리즘]버블 정렬 이란](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
 - [Bubble Sort](https://bowbowbow.tistory.com/10)
-- [[알고리즘]정렬 알고리즘-1](https://bowbowbow.tistory.com/10)
+- [[알고리즘]정렬 알고리즘-1](https://velog.io/@hwamoc/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-1-%EB%B2%84%EB%B8%94-%EC%A0%95%EB%A0%AC-%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC-%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC)
 - [이미지 출처](https://www.programmingsimplified.com/c/source-code/c-program-bubble-sort)
 
