@@ -46,7 +46,7 @@
     | float   | **Float**     | Float fA = new Float(12.34f); <br/>Float fB = new Float(“12.34f”); |
     | double  | **Double**    | Double dA = new Double(12.34); <br/>Double dB = new Double(“12.34”); |
 
-    - 생성자는 매개변수로 문자열이나 각 자료형의 값들을 인자로 ㅂ다는다.
+    - 생성자는 매개변수로 문자열이나 각 자료형의 값들을 인자로 받는다.
     - 주의할 점
       - 문자열을 인자로 주는 경우, 각 자료형에 알맞는 문자열을 사용해야 한다.
       - new Integer("1.0"); --> NumberFormatException 발생
@@ -78,7 +78,7 @@
           Double wd = new Double(d); // 박싱 (double -> Double)
       }
   }
-  ```
+```
 
 <br/>
 
