@@ -76,3 +76,12 @@
 - [x] [[JAVA] Collection Framework [List 컬렉션]](./%5BJAVA%5D%20컬렉션%20프레임워크%20-%20List%20컬렉션.md)
 
 <br/>
+
+## 7주차
+
+- [x] [[JAVA] Error & Exception](./%5BJAVA%5D%20Error%20%26%20Exception.md)
+- [x] [[JAVA] Boxing & Unboxing](./%5BJAVA%5D%20Boxing%20%26%20Unboxing.md)
+- [x] [[JAVA] Call by value & Call by reference](./%5BJAVA%5D%20Call%20by%20value%20%26%20Call%20by%20reference.md)
+- [x] [[JAVA] Annotation](./%5BJAVA%5D%20Annotation.md)
+
+<br/>
