@@ -90,7 +90,7 @@ JAVA에서 모든 예외가 발생하면 Exception 객체를 생성한다. 예�
 
    * **try** : 예외가 발생할 가능성이 있는 범위를 지정하는 블록이다. try 블록은 최소한 하나의 catch 블록이 있어야 하며, catch 블록은 try 블록 다음에 위치한다.
    * **catch** : 블록의 매개변수는 예외 객체가 발생했을 때 참조하는 변수명으로 반드시 java.lang.Throwable 클래스의 하위 클래스 타입으로 선언되어야 합니다.
-   * **finally** : 이 블록은 필수 변록이 아니며, finally 블록은 catch 유무와 상관 없이 무조건 수행된다. 주로 IO 또는 Connection을 close() 하는데 사용된다.
+   * **finally** : 이 블록은 필수 록이 아니며, finally 블록은 catch 유무와 상관 없이 무조건 수행된다. 주로 IO 또는 Connection을 close() 하는데 사용된다.
 
    ~~~java
    public class Test {
