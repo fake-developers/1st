@@ -96,3 +96,5 @@
 
 
 - [[Algoithms] 선택정렬](./Selection%20sort.md)
+- [[Algoithms] 퀵정렬](./Quick%20sort.md)
+- 
