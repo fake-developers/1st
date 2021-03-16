@@ -50,3 +50,12 @@
 - [x] [[JAVA]Error & Exception](./Error%20%26%20Exception.md)
 - [x] [[JAVA]Java Annotation](./Java%20Annotation.md)
 
+<br/>
+
+<br/>
+
+## 8주차
+
+- [ ] [삽입정렬](./삽입%20정렬.md)
+- [ ] [병합정렬](./병합정렬.md)
+
