@@ -85,3 +85,10 @@
 - [x] [[JAVA] Annotation](./%5BJAVA%5D%20Annotation.md)
 
 <br/>
+
+## 8주차
+
+- [ ] [[DATA STRUCTURE] 선택정렬(Selection Sort)](./%5BDATA%20STRUCTURE%5D%20선택정렬(Selection%20Sort).md)
+- [ ] [[DATA STRUCTURE] 퀵 정렬(Quick Sort)](./%5BDATA%20STRUCTURE%5D%20퀵%20정렬(Quick%20Sort).md)
+
+<br/>
