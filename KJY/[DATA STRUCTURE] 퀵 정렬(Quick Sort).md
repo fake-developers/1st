@@ -207,7 +207,7 @@
 
 #### :pushpin: 추가 ) 정렬의 시간 복잡도
 
-- [선택정렬 게시물 마지막 부분 참고]((./%5BDATA%20STRUCTURE%5D%20선택정렬(Selection%20Sort).md)
+- [선택정렬 게시물 마지막 부분 참고](./%5BDATA%20STRUCTURE%5D%20선택정렬(Selection%20Sort).md)
 
 <br/>
 
