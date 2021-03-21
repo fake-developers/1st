@@ -90,5 +90,6 @@
 
 - [x] [[DATA STRUCTURE] 선택정렬(Selection Sort)](./%5BDATA%20STRUCTURE%5D%20선택정렬(Selection%20Sort).md)
 - [x] [[DATA STRUCTURE] 퀵 정렬(Quick Sort)](./%5BDATA%20STRUCTURE%5D%20퀵%20정렬(Quick%20Sort).md)
+- [ ] [[DATA STRUCTURE] 삽입 정렬(Insert Sort)](./%5BDATA%20STRUCTURE%5D%20퀵%20정렬(Quick%20Sort).md)
 
 <br/>
