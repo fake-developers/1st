@@ -16,12 +16,142 @@
 
 - 정렬 예제
 
-  
+  <img src="https://gmlwjd9405.github.io/images/algorithm-insertion-sort/insertion-sort.png">
+
+  1. 가장 앞쪽에 있는 원소를 이미 정렬 되어 있다고 가정한다.
+
+     - **1회전**
+
+     - 8은 정렬 완료
+     - 5를 key 값으로 설정
+
+  2. 정렬된 원소 뒤에 아직 작업 하지 않은 원소를 key로 해서 그 이전의 자료들과 비교한다.
+
+     - 두 번째 원소 5를 key 값으로 한다.
+     - key값 5와 첫번째 값 8 비교
+     - 8 > 5 이므로 숫자 교환
+
+  3. 비교한 값들을 정렬 완료된 상태로 변경한다.
+
+     - 정렬 완료 : 8 5
+
+  4. 다음 값을 key로 설정한다.
+
+     - 세 번째 원소 6을 key값으로 한다.
+
+  5. 동일한 작업을 모든 원소가 정렬 완료될 때까지 반복한다.
+
+     - **2회전**
+       - key값 6과 8 비교, 8 > 6 이므로 교환,
+       - key값 6과 5 비교, 5 < 6 이므로 그대로,
+       - 정렬 완료 : 5 6 8
+     - **3회전**
+       - 네 번째 원소 2를 key 값으로 한다.
+       - key값 2과 8 비교, 8 > 2 이므로 교환,
+       - key값 2과 6 비교, 6 > 2 이므로 교환,
+       - key값 2과 5 비교, 5 > 2 이므로 교환,
+       - 정렬 완료 : 2 5 6 8
+     - **4회전**
+       - 다섯 번째 원소 4를 key 값으로 한다.
+       - key값 4과 8 비교, 8 > 4 이므로 교환,
+       - key값 4과 6 비교, 6 > 4 이므로 교환,
+       - key값 4과 5 비교, 5 > 4 이므로 교환,
+       - key값 4과 2 비교, 2 < 4 이므로 그대로,
+       - 정렬 완료 : 2 4 5 6 8
+
+- gif로 보는 삽입 정렬
+
+  <img src="https://media.vlpt.us/images/hwamoc/post/4baaa2bc-d48a-4f3b-a063-6538f6f59971/%EC%82%BD%EC%9E%851.gif">
+
+- ex_) 코드 예제
+
+  ~~~java
+  public class Insertion {
+   
+      public void sort(int[] A){
+          int size = A.length;
+          int key = 0;
+          int j = 0;
+          for(int i = 1; i < size; i++){
+              key = A[i]; //처음 key 값은 두번째 자료부터 시작한다.
+              for(j=i-1; j>=0 && key<A[j]; j--){
+                  A[j+1] = A[j]; // 비교대상이 큰 경우 오른쪽으로 
+              }
+              A[j+1] = key;
+          }
+      }
+      
+      public static void main(String[] args) {
+          // TODO Auto-generated method stub
+          Insertion insertion = new Insertion();
+          
+          int A[] = {66, 10, 1, 34, 5};
+          
+          insertion.sort(A);
+          for(int i = 0; i < A.length; i++){
+              System.out.println("A["+i+"] : " + A[i]);
+          }
+      }
+  }
+  ~~~
+
+<br>
+
+## 삽입 정렬의 특징
+
+- **장점**
+  - 안정한 정렬이다.
+  - 레코드의 수가 적을 경우 알고리즘 자체가 매우 간단하여, 다른 복잡한 정렬 방법보다 유리할 수 있다.
+  - 대부분의 레코드가 이미 정렬되어 있는 경우 매우 효율적일 수 있다.
+- **단점**
+  - 레코드의 수가 많고 레코드의 크기가 클 경우에 적합하지 않다.
+    - 즉, 레코드들의 이동이 많기 때문에 효율성이 떨어진다.
+
+<br>
+
+## 삽입 정렬 시간 복잡도 & 공간복잡도
+
+- #### 시간복잡도
+
+  - **최선의 경우**
+    - 자료가 이미 정렬되어 있는 경우
+    - **O(n<sup>2</sup>)**
+      - 비교 횟수 : (n-1)번
+        - 이동없이 1번의 비교만 이루어진다.
+        - 외부 루프 :  (n-1)번
+  - **최악의 경우**
+    - 자료가 역순으로 정렬되어 있는 경우
+    - **O(n<sup>2</sup>)**
+      - 비교 횟수 : O(n<sup>2</sup>)번
+        - 외부 루프 안의 각 반복마다 i번의 비교 수행
+        - 외부 루프: (n-1) + (n-2) + … + 2 + 1 = n(n-1)/2 = O(n<sup>2</sup>)
+      - 교환 횟수 : O(n<sup>2</sup>)번
+        - 외부 루프의 각 단계마다 (i+2)번의 이동 발생
+          n(n-1)/2 + 2(n-1) = (n^2+3n-4)/2 = O(n<sup>2</sup>)
+  - **평균**
+
+    - **O(n<sup>2</sup>)**
+
+- #### 공간복잡도
+
+  - 주어진 배열 안에서 교환(swap)을 통해, 정렬이 수행되므로 **O(n)**
+
+<br>
+
+:bulb: **정렬 알고리즘의 시간 복잡도 비교**
+
+​	<img src="https://gmlwjd9405.github.io/images/algorithm-insertion-sort/sort-time-complexity.png" height=250>
+
+- **단순(구현 간단)하지만 비효율적인 방법 :** **삽입 정렬** , 선택 정렬, 버블 정렬
+- **복잡하지만 효율적인 방법 :** **퀵 정렬**, 힙 정렬, 합병 정렬, 기수 정렬
 
 ---------
 
 **<참조>**
 
 - [[알고리즘] 정렬 알고리즘-1 (버블 정렬, 선택 정렬, 삽입 정렬)](https://velog.io/@hwamoc/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-1-%EB%B2%84%EB%B8%94-%EC%A0%95%EB%A0%AC-%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC-%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC)
-
 - [[알고리즘] 삽입 정렬(insertion sort)이란](https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html)
+- [삽입정렬](https://hahahoho5915.tistory.com/8)
+
+- [[IT 개념 정리] 시간/공간 복잡도 & 정렬 알고리즘](https://han-1ife.tistory.com/8)
+
