@@ -56,6 +56,8 @@
 
 ## 8주차
 
-- [ ] [[Algorithm]삽입정렬](./삽입%20정렬.md)
-- [ ] [[Algorithm]병합정렬](./병합정렬.md)
+- [x] [[Algorithm]병합정렬(Merge Sort)](./병합정렬.md)
+- [x] [[Algorithm]삽입정렬(Insertion Sort)](./삽입%20정렬.md)
+- [x] [[Algorithm]선택정렬(Selection Sort)](./선택정렬.md)
+- [x] [[Algorithm]퀵정렬(Quick Sort)](./퀵정렬.md)
 
