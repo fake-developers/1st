@@ -1,7 +1,7 @@
 # 퀵 정렬(Quick sort)
 
 - '찰스 앤터니 리처드 호어'가 개발한 정렬 알고리즘
-- **분할 정복 알고리즘**의 하나로, 평균적으로 **매우 빠른 수행 속도**를 자랑하는 정렬
+- **분할 정복 알고리즘** 의 하나로, 평균적으로 **매우 빠른 수행 속도** 를 자랑하는 정렬
   - 합병 정렬과 달리 퀵 정렬은 리스트를 비균등하게 분할
   - 분할 정복 방법
     - 문제를 작은 2개의 문제로 분리하고 각각을 해결한 다음, 결과를 모아서 원래의 문제를 해결하는 전략
@@ -17,14 +17,22 @@
 - 퀵 정렬의 과정의 핵심 단계
 
   - **분할(Divide)** : 입력 배열을 피벗을 기준으로 비균등하게 2개의 부분 배열 **(피벗을 중심으로 왼쪽 : 피벗보다 작은 요소들 / 오른쪽 : 피벗보다 큰 요소들)** 로 분할한다.
-  - **정복(Conquer) **: 부분 배열을 정렬한다. 부분 배열의 크기가 충분히 작지 않으면 **순환 호출**을 이용하여 다시 분할 정복 방법을 적용한다.
+
+  - **정복(Conquer) **: 부분 배열을 정렬한다. 부분 배열의 크기가 충분히 작지 않으면 **순환 호출** 을 이용하여 다시 분할 정복 방법을 적용한다.
+
+    :bulb: 실제로 정렬이 이루어지는 단계(vs 병합 정렬은 결합에서 정렬이 이루어진다.)
+
   - **결합(Combine)** : 정렬된 부분 배열들을 하나의 배열에 합병한다.
 
   - 순환 호출이 한번 진행될 때마다 최소한 하나의 원소(피벗)는 최종적으로 위치가 정해지므로, 이 알고리즘은 반드시 끝난다는 것을 보장할 수 있다.
 
 - 정렬 예제
 
-  <img src="https://user-images.githubusercontent.com/58902042/111310023-ebdd4100-869f-11eb-8cae-0ec5dc60230b.png" height=600>
+  <img src="https://user-images.githubusercontent.com/58902042/111310023-ebdd4100-869f-11eb-8cae-0ec5dc60230b.png" height=560>
+
+  <br>
+
+  <img src="https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort2.png" height=900>
 
   1. 리스트 안에 있는 한 요소를 선택한다. 이렇게 고른 원소를 **피벗(pivot)** 이라고 한다.
      - 이 경우 입력리스트의 첫 번째 데이터로 한다.
@@ -42,9 +50,9 @@
      - 피벗이 9인 경우
   4. 부분 리스트들이 더 이상 분할이 불가능할 때까지 반복한다.
 
-- git으로 보는 퀵 정렬
+- gif으로 보는 퀵 정렬
 
-  <img src="https://github.com/GimunLee/tech-refrigerator/raw/master/Algorithm/resources/quick-sort-001.gif">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdTshA7%2FbtqNXdYJPOX%2FDe8aSgHRwQVbI313T4sZ50%2Fimg.gif">
 
 - ex_) 코드 예제
 
@@ -163,3 +171,5 @@
 - [[알고리즘] 퀵 정렬(quick sort)이란](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)
 - [[자료구조] 퀵 정렬(Quick Sort) with JAVA](https://heekim0719.tistory.com/282 )
 - [ 퀵 정렬(Quick Sort)](https://gyoogle.dev/blog/algorithm/Quick%20Sort.html)
+
+- [[Algorithm] 각 정렬의 특징 및 장단점 & 시간복잡도](https://coding-factory.tistory.com/615)
