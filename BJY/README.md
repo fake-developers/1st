@@ -50,3 +50,14 @@
 - [x] [[JAVA]Error & Exception](./Error%20%26%20Exception.md)
 - [x] [[JAVA]Java Annotation](./Java%20Annotation.md)
 
+<br/>
+
+<br/>
+
+## 8주차
+
+- [x] [[Algorithm]병합정렬(Merge Sort)](./병합정렬.md)
+- [x] [[Algorithm]삽입정렬(Insertion Sort)](./삽입%20정렬.md)
+- [x] [[Algorithm]선택정렬(Selection Sort)](./선택정렬.md)
+- [x] [[Algorithm]퀵정렬(Quick Sort)](./퀵정렬.md)
+
