@@ -2,7 +2,7 @@
 
 :writing_hand: *Assembled by Yunju Jang*
 
-<!-- 🤝*Contributors : Jeonghea Shin* -->
+🤝*Contributors : JiYe Bae* 
 
 <hr>
 
@@ -29,6 +29,8 @@
   - 즉, 두 번째 자료는 첫 번째 자료, 세 번째 자료는 두 번째와 첫 번째 자료, 네 번째 자료는 세 번째, 두 번째, 첫 번째 자료와 비교한 후 자료가 삽입될 위치를 찾는다.
     - 자료가 삽입될 위치를 찾았다면 그 위치에 자료를 삽입하기 위해 자료를 뒤로 한 칸씩 이동시킨다.
   - 처음 Key 값은 두 번째 자료부터 시작한다.
+  
+  <img src='resources/insert.gif' width='500px' align='center'>
 
 <br/>
 
