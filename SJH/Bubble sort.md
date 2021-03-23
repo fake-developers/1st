@@ -4,7 +4,7 @@
 
 ### 버블 정렬이란?
 
-- 거룸이 수면으로 올라오는 듯한 모습 때문에 붙여진 이름이다.
+- 거품수면으로 올라오는 듯한 모습 때문에 붙여진 이름이다.
 - 서로 **인접한 두 원소를 비교**하여 큰 수(작은 수)를 뒤로 보내는 정렬 알고리즘
 - **O(n<sup>2</sup>)** 의 시간 복잡도를 가진다.
 
@@ -81,6 +81,29 @@
   
   -----
 
+- ex_) 코드 예제
+
+  ~~~java
+  public static void bubleSort(int[] arr) {
+      for(int i = 0; i < arr.length; i++) {
+          for(int j = 0 ; j < arr.length - i - 1 ; j++) {
+              if(arr[j] > arr[j+1]) {
+                  int temp = arr[j+1];
+                  arr[j+1] = arr[j];
+                  arr[j] = temp;
+              }
+          }
+      }
+  }
+  public static void main(String[] args) {
+      int[] arr = new int[]{3,6,41,2,4,1,5,743};
+      Sort.bubleSort(arr);
+      for(int i : arr) { 
+          System.out.print(i+" ");
+      }
+  }
+  ~~~
+
 <br>
 
 ### 버블 정렬의 특징
@@ -137,6 +160,13 @@
 
 <br>
 
+:bulb: **정렬 알고리즘의 시간 복잡도 비교**
+
+​	<img src="https://gmlwjd9405.github.io/images/algorithm-bubble-sort/sort-time-complexity.png" height=250>
+
+- **단순(구현 간단)하지만 비효율적인 방법 :** 삽입 정렬, 선택 정렬, **버블 정렬**
+- **복잡하지만 효율적인 방법 :** 퀵 정렬, 힙 정렬, 합병 정렬, 기수 정렬
+
 ----
 
 ### 예상질문 :bulb:
@@ -154,7 +184,12 @@
 **<참조>**
 
 - [[알고리즘]버블 정렬 이란](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
+
 - [Bubble Sort](https://bowbowbow.tistory.com/10)
+
 - [[알고리즘]정렬 알고리즘-1](https://bowbowbow.tistory.com/10)
+
+- [버블정렬 버블소트 BubleSort 자바구현](https://javaplant.tistory.com/16)
+
 - [이미지 출처](https://www.programmingsimplified.com/c/source-code/c-program-bubble-sort)
 
