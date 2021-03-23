@@ -100,5 +100,7 @@
 
 ## 8주차
 
-- [x] [[Algorithm]삽입 정렬](./InsertionSort.md)
-- [ ] [[Algorithm]합병정렬](./MergeSort.md)
+- [x] [[Algorithm]삽입정렬](./InsertionSort.md)
+- [x] [[Algorithm]합병정렬](./MergeSort.md)
+- [x] [[Algorithm]선택정렬](./SelectionSort.md)
+- [x] [[Algorithm]퀵정렬](./QuickSort.md)
