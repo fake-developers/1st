@@ -88,5 +88,13 @@
 - [[Java] Call by value와 Call by Reference](./Call%20by%20value%20vs%20Call%20by%20reference.md)
 - [[Java] Java에서 이노테이션이란](./Java%20Annotation.md)
 - [[Java] error & exception](./Error&Exception.md)
-- [[Java] 박싱과 언박싱]()
+- [[Java] 박싱과 언박싱](./Boxing&UnBoxing.md)
 
+<br>
+
+## 7주차
+
+
+- [[Algoithms] 선택정렬](./Selection%20sort.md)
+- [[Algoithms] 퀵정렬](./Quick%20sort.md)
+- 
