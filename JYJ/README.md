@@ -93,3 +93,14 @@
 - [x] [[Java]Call by value 와 Call by reference](./CallByValueAndReference.md)
 - [x] [[Java]박싱과 언박싱](./BoxingAndUnboxing.md)
 - [x] [[Java]Error와 Exception](./ErrorAndException.md)
+
+<br/>
+
+<br/>
+
+## 8주차
+
+- [x] [[Algorithm]삽입정렬](./InsertionSort.md)
+- [x] [[Algorithm]합병정렬](./MergeSort.md)
+- [x] [[Algorithm]선택정렬](./SelectionSort.md)
+- [x] [[Algorithm]퀵정렬](./QuickSort.md)
