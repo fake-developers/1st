@@ -104,3 +104,15 @@
 - [x] [[Algorithm]합병정렬](./MergeSort.md)
 - [x] [[Algorithm]선택정렬](./SelectionSort.md)
 - [x] [[Algorithm]퀵정렬](./QuickSort.md)
+
+<br/>
+
+<br/>
+
+## 8주차
+
+- [x] [[Web]Get 방식과 Post 방식](./GetAndPost.md)
+- [x] [[Web]Spring MVC 패턴](./SpringMVC.md)
+- [ ] [[Web]DAO vs DTO vs VO](./DAOvsDTOvsVO.md)
+- [ ] [[SW]UI와 UX](./QuickSort.md) 
+
