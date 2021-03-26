@@ -4,7 +4,7 @@
 
 ### <u>**Spring MVC란**</u>
 
-* pring 프레임워크에서 제공하는 웹 모듈이다.
+* Spring 프레임워크에서 제공하는 웹 모듈이다.
 * MVC 는 Model-View-Controller 의 약자로, 기본 시스템 모듈을 MVC 로 나누어 구현되어있다.
   - Model 은 '데이터' 디자인을 담당한다.
     - ex. 상품 목록, 주문 내역 등
