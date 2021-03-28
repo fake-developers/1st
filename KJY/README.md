@@ -98,7 +98,7 @@
 ## 9주차
 
 - [x] [[WEB] UI와 UX]()
-- [ ] [[WEB] DAO, DTO, VO]()
+- [x] [[WEB] DAO, DTO, VO]()
 - [ ] [[WEB] GET & POST]()
 - [ ] [[WEB] Spring MVC]()
 
