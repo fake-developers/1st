@@ -31,18 +31,22 @@
 <br/>
 
 - <b>역할</b>
-
   - <b>Controller 역할</b>
+
     - 사용자가 접근한 URL에 따라 요청을 파악한다. 
     - URL에 맞는 Method를 호출하여 Service와 함께 Business Logic을 처리한다.
     - 최종적으로 나온 결과는 Model에 저장하고, View에 던져준다.
 
-  <br/>
+    <br/>
+
   - <b>Model 역할</b>
+
     - Controller 에서 받은 데이터를 저장하는 역할을 한다.
 
-  <br/>
+    <br/>
+
   - <b>View 역할</b>
+
     - Controller로 부터 받은 Model 데이터를 바탕으로 사용자에게 표현해준다.
     - 일반적으로 HTML, JSP 에 해당한다.
 
