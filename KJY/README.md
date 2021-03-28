@@ -99,7 +99,7 @@
 
 - [x] [[WEB] UI와 UX]()
 - [x] [[WEB] DAO, DTO, VO]()
-- [ ] [[WEB] GET & POST]()
+- [x] [[WEB] GET & POST]()
 - [ ] [[WEB] Spring MVC]()
 
 <br/>
