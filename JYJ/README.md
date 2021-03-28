@@ -113,6 +113,6 @@
 
 - [x] [[Web]Get 방식과 Post 방식](./GetAndPost.md)
 - [x] [[Web]Spring MVC 패턴](./SpringMVC.md)
-- [ ] [[Web]DAO vs DTO vs VO](./DAOvsDTOvsVO.md)
-- [ ] [[SW]UI와 UX](./QuickSort.md) 
+- [x] [[Java]DAO vs DTO vs VO](./DAOvsDTOvsVO.md)
+- [x] [[SW]UI와 UX](./UIandUX.md) 
 
