@@ -106,3 +106,7 @@
 
 - [[Web Design] UI와 UX](./UI&UX%20Difference.md)
 - [[Java] DAO, DTO,VO의 차이](./DAOvsDTOvsVO.md)
+
+- [[Web] Spring MVC 패턴](./Spring%20MVC%20Pattern.md)
+- [[Web] GET방식과 POST방식](./GET&POST.md)
+
