@@ -109,7 +109,7 @@
 
 <br/>
 
-## 8주차
+## 9주차
 
 - [x] [[Web]Get 방식과 Post 방식](./GetAndPost.md)
 - [x] [[Web]Spring MVC 패턴](./SpringMVC.md)
