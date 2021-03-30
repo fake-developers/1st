@@ -71,3 +71,11 @@
 - [x] [[WEB]GET & POST](./GET%20%26%20POST.md)
 - [x] [[WEB]Spring MVC](./Spring%20MVC.md)
 - [x] [[WEB]UI & UX](./UI%20%26%20UX.md)
+
+<br/>
+
+<br/>
+
+## 10주차
+
+- [ ] [[WEB]AJAX](./Ajax.md)
