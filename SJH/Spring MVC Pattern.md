@@ -48,7 +48,7 @@
     - 클라이언트의 요청을 받아 Controller에게 전달 및 리턴한 결과값을 View에게 전달하여 알맞은 응답을 생성
   - **HandlerMapping**
     - URL과 요청정보를 기준으로 어떤 Controller를 실행할지 결정
-    - 요청 URL에 해당하는 Controller정보를 저장하는 table 가진다.
+    - 요청 URL에 해당하는 Controller정보를 저장하는 table을 가진다.
     - 즉, 클래스에 @RequestMapping(“/url”) annotaion을 명시하면 해당 URL에 대한 요청이 들어왔을 때 table에 저장된 정보에 따라 해당 클래스 또는 메서드에 Mapping한다.
   - **ViewResolver**
     - Controller 처리 결과를 생성할 뷰 결정
@@ -67,7 +67,7 @@
     - @Contorller 애노테이션 설정
       - bean으로 등록
     - 메서드 별로 @RequestMapping 애노테이션을 사용하여 URL 매핑을 설정
-      - @RequestParam은 HTTP 요청 파라미터를 메소드이 파라미터로 전달받을 때 사용
+      - @RequestParam은 HTTP 요청 파라미터를 메소드의 파라미터로 전달받을 때 사용
       - 메서드 반환 값은 view 이름으로 반환
 
     ~~~java
