@@ -107,5 +107,6 @@
 ## 10주차
 
 - [x] [[WEB] Forward & Redirect](./%5BWEB%5D%20Forward%20%26%20Redirect.md)
+- [x] [[WEB] AWS란](./%5BWEB%5D%20AWS란.md)
 
 <br/>
