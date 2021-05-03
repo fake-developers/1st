@@ -110,3 +110,9 @@
 - [[Web] Spring MVC 패턴](./Spring%20MVC%20Pattern.md)
 - [[Web] GET방식과 POST방식](./GET&POST.md)
 
+<BR>
+
+## 10주차
+
+- [[JavaScript] AJAX](./AJAX.md)
+- [[JavaScript] JSON](./JSON.md)
