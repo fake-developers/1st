@@ -12,6 +12,15 @@
 
 ### <u>형식</u>
 
+> #### 기본 자료형
+>
+> * 수(Number)
+> * 문자열(String)
+> * 참/거짓(Boolean)
+> * 배열(Array)
+> * 객체(Object)
+> * null
+
 #### - name-value 형식의 쌍 (pair)
 
 * 여러가지 언어들에서 object,hashtable,struct로 실현되었다.
@@ -65,6 +74,31 @@
 >
 > 태그로 표현하기 보다는 중괄호({}) 같은 형식으로 하고, 값을 ','로 나열하기에 그 표현이 간단하다.
 
+#### 공통점
+
+1. 데이터를 저장하고 전달하기 위해 고안되었다.
+2. 계층적인 데이터 구조를 가진다.
+3. 프로그래밍 언어에 의해 파싱될 수 있다.
+4. XMLHttpRequest 객체를 이용하여 서버로부터 데이터를 전송받아올 수 있다.
+
+#### 차이점
+
+1. JSON은 종료 태그를 사용하지 않는다.
+2. JSON의 구문이 XML의 구문보다 더 짧다.
+3. JSON 데이터가 XML 데이터보다 더 빨리 읽고 쓸 수 있다.
+4. XML은 배열을 사용할 수 없지만, JSON은 배열을 사용할 수 있다.
+5. XML은 XML 파서로 파싱되며, JSON은 자바스크립트 표준 함수인 eval() 함수로 파싱된다.
+
+<br/>
+
+### <u>JSON의 문제점</u>
+
+> **AJAX를 사용해 데이터를 주고 받을 때 그 데이터 포맷으로 JSON을 사용한다.**
+
+AJAX 는 단순히 데이터만이 아니라 JavaScript 그 자체도 전달할 수 있다. 이 말은 JSON데이터라고 해서 받았는데 단순 데이터가 아니라 JavaScript가 될 수도 있고, 그게 실행 될 수 있다는 것이다. (데이터인 줄 알고 받았는데 악성 스크립트가 될 수 있다.)
+
+위와 같은 이유로 받은 내용에서 순수하게 데이터만 추출하기 위한 JSON 관련 라이브러리를 따로 사용하기도 한다.
+
 <br/>
 
 <br/>
@@ -75,4 +109,8 @@
 
 ### REFERENCE
 
-* []
+* [JSON이란 무엇인가?](https://velog.io/@surim014/JSON%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+* [JSON이란 무엇일까??](https://nesoy.github.io/articles/2017-02/JSON)
+* [JSON 기초](http://tcpschool.com/json/json_intro_basic)
+* [JSON과 XML](http://tcpschool.com/json/json_intro_xml)
+* [JSON 이란?](https://genesis8.tistory.com/195)
