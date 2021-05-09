@@ -116,3 +116,6 @@
 
 - [[JavaScript] AJAX](./AJAX.md)
 - [[JavaScript] JSON](./JSON.md)
+
+- [[AWS]AWS](/AWS.md)
+- [[Web]Forward와Redirect](/Forward&Redirect.md)
