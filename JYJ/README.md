@@ -123,6 +123,6 @@
 ## 10주차
 
 - [x] [[Web]Forward와 Redirect의 차이](./ForwardAndRedirect.md)
-- [ ] [[Web]AJAX](./AJAX.md)
+- [x] [[Web]AJAX](./AJAX.md)
 - [x] [[SW]AWS란?](./AWS.md)
-- [ ] [[Web]JSON](./Json.md)
+- [x] [[Web]JSON](./JSON.md)
