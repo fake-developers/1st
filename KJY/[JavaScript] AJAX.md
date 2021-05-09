@@ -1,4 +1,4 @@
-# [JavaScript] AJAX
+# [JAVASCRIPT] AJAX
 
 :writing_hand: *Assembled by JiYoung-Kwon (2021-05-09)* 
 
