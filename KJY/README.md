@@ -108,5 +108,7 @@
 
 - [x] [[WEB] Forward & Redirect](./%5BWEB%5D%20Forward%20%26%20Redirect.md)
 - [x] [[WEB] AWS란](./%5BWEB%5D%20AWS란.md)
+- [x] [[JAVASCRIPT] AJAX](./%5BJAVASCRIPT%5D%20AJAX.md)
+- [x] [[JAVASCRIPT] JSON](./%5BJAVASCRIPT%5D%20JSON.md)
 
 <br/>
