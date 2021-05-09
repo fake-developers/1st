@@ -176,9 +176,8 @@
 
 - AJAX vs 기존 웹
 
-  ![img](https://camo.githubusercontent.com/2632c3cf6e18e44299140a93aa8a0532bd85e5abf0d385b2f01f0742fdc391d5/687474703a2f2f7777772e7463707363686f6f6c2e636f6d2f6c656374757265732f696d675f616a61785f616a61785f6170706c69636174696f6e2e706e67)
+  <img src="http://www.tcpschool.com/lectures/img_ajax_ajax_application.png" width=310> <img src="http://www.tcpschool.com/lectures/img_ajax_other_application.png" width=350> 
 
-  ![img](https://camo.githubusercontent.com/a2e23c0a1df94c0176d457df1360050f4eaefc18c5647e3e7e462a2b8e34ba15/687474703a2f2f7777772e7463707363686f6f6c2e636f6d2f6c656374757265732f696d675f616a61785f6f746865725f6170706c69636174696f6e2e706e67)
 
   - 사용자에 의한 요청 이벤트가 발생
   - 요청 이벤트가 발생하면 이벤트 핸들러에 의해 자바스크립트 호출
