@@ -116,3 +116,13 @@
 - [x] [[Java]DAO vs DTO vs VO](./DAOvsDTOvsVO.md)
 - [x] [[SW]UI와 UX](./UIandUX.md) 
 
+<br/>
+
+<br/>
+
+## 10주차
+
+- [x] [[Web]Forward와 Redirect의 차이](./ForwardAndRedirect.md)
+- [x] [[Web]AJAX](./AJAX.md)
+- [x] [[SW]AWS란?](./AWS.md)
+- [x] [[Web]JSON](./JSON.md)
