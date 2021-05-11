@@ -126,3 +126,12 @@
 - [x] [[Web]AJAX](./AJAX.md)
 - [x] [[SW]AWS란?](./AWS.md)
 - [x] [[Web]JSON](./JSON.md)
+
+<br/>
+
+<br/>
+
+## 11주차
+
+- [x] [[SW]DevOps](./DevOps.md)
+- [ ] [[Web]JSTL](./JSTL.md)
