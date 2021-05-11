@@ -12,7 +12,7 @@
 
   - Model, View, Controller 이 3가지로 나뉘어 역할을 분할하여 처리하도록 만들어진 디자인 패턴
 
-  ![img](https://github.com/fake-developers/1st/raw/JYJ-09/JYJ/resources/mvcpattern.png)
+  ![img](https://github.com/fake-developers/1st/raw/main/JYJ/resources/mvcpattern.png)
 
 - MVC 패턴 처리 순서
   1. 사용자의 Request를 Controller가 받음
@@ -38,7 +38,7 @@
 
   - Model1 방식
 
-    ![img](https://github.com/fake-developers/1st/raw/JYJ-09/JYJ/resources/model1.png)
+    ![img](https://github.com/fake-developers/1st/raw/main/JYJ/resources/model1.png)
 
     - Java 파일과 <Tag\>를 HTML에 모두 작성하여 개발함
     - 즉, JSP가 모든 요청을 다 처리함
@@ -46,7 +46,7 @@
 
   - Model2 방식
 
-    ![img](https://github.com/fake-developers/1st/raw/JYJ-09/JYJ/resources/model2.png)
+    ![img](https://github.com/fake-developers/1st/raw/main/JYJ/resources/model2.png)
 
     - 처리해야 할 역할을 Controller, View, Model이 모두 나눠 처리함
     - Controller는 RequestMapping을 통해 URL 확인 후, 바로 View에 던져줄 지, Service로 들어가 추가적인 Business Logic을 수행할지 결정함
@@ -54,7 +54,7 @@
       - 확장성이 좋고, 유연하며, 유지보수도 쉬워짐
     - 현재 대부분의 Spring 프로젝트들은 Model2 구조를 따름
 
-  * 자세한 MVC 내용은 [[SW] MVC 패턴](https://github.com/fake-developers/1st/blob/KJY-09/KJY/[SW] MVC 패턴.md) 참고
+  * 자세한 MVC 내용은 [[SW] MVC 패턴](https://github.com/fake-developers/1st/blob/main/KJY/%5BSW%5D%20MVC%20%ED%8C%A8%ED%84%B4.md) 참고
 
     <br/>
 
@@ -62,7 +62,7 @@
 
 #### 1-1. Spring MVC Architecture란?
 
-![img](https://github.com/fake-developers/1st/raw/JYJ-09/JYJ/resources/springmvc.png)
+![img](https://github.com/fake-developers/1st/raw/main/JYJ/resources/springmvc.png)
 
 - Spring 프레임워크에서 제공하는 웹 모듈
 
@@ -128,11 +128,11 @@
 
 #### 1-3. Spring MVC 처리 순서
 
-![img](https://github.com/fake-developers/1st/raw/JYJ-09/JYJ/resources/springmvcprocess.png)
+![img](https://github.com/fake-developers/1st/raw/main/JYJ/resources/springmvcprocess.png)
 
  
 
-![img](https://github.com/fake-developers/1st/raw/JYJ-09/JYJ/resources/springmvcprocess2.png)
+![img](https://github.com/fake-developers/1st/raw/main/JYJ/resources/springmvcprocess2.png)
 
 ```
 요청 -> 프론트 컨트롤러 -> 핸들러 매핑 -> 핸들러 어댑터 -> 컨트롤러 -> 로직 수행(서비스) -> 컨트롤러 -> 뷰 리졸버 -> 응답(jsp, html)
