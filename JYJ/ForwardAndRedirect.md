@@ -79,7 +79,7 @@
 ## Redirect 와 Forward 차이
 
 - <b>URL의 변화 여부</b>
-- redirect : 변화 있음
+  - redirect : 변화 있음
   - forward : 변화 없음
 
 <br/>
