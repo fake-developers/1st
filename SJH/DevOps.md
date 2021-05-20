@@ -179,7 +179,7 @@
 - [DevOps란?-Microsoft Azure](https://azure.microsoft.com/ko-kr/overview/what-is-devops/)
 - [데브옵스 알아가기(1) : 애자일과 데브옵스](https://engineering-skcc.github.io/devops/DevOps1-%EC%95%A0%EC%9E%90%EC%9D%BC%EA%B3%BC%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4/)
 
-- [비즈니스 변활르 빠르고 안정적으로 적용하느 기술과 문화](https://blog.lgcns.com/1755)
+- [비즈니스 변화를 빠르고 안정적으로 적용하는 기술과 문화](https://blog.lgcns.com/1755)
 
 - [그렇다면 DevOps란 무엇일까요?](https://www.redhat.com/ko/topics/devops#)
 
