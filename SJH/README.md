@@ -116,7 +116,15 @@
 
 - [[JavaScript] AJAX](./AJAX.md)
 - [[JavaScript] JSON](./JSON.md)
-
 - [[AWS]AWS](/AWS.md)
 - [[Web]Forward와Redirect](/Forward&Redirect.md)
 
+<br>
+
+## 11주차
+
+- [[[DevOps] DevOps](./DevOps.md)
+
+- [[Java] POJO](./POJO.md)
+
+  
