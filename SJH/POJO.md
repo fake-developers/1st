@@ -1,6 +1,6 @@
 # POJO<SMALL>(feat.spring)</SMALL>
 
-- Plain Old Java Object 약자, 평범하고 오랜된 방식의 간단하 자바 객체
+- Plain Old Java Object 약자, 평범하고 오래된 방식의 간단 자바 객체
 - getter/setter를 가진 단순한 자바 오브텍트
 - **특별한 제한에 종속되지 않고, 클래스 패스(class path)를 필요로 하지 않는 순수한 Java Object**
 - 큰 개념이 있는 것이 아니라 Java EE 등으로 점점 무거워지는 객체에 대한 반발로 나타난 개념
@@ -79,7 +79,7 @@
   - Serializable 인터페이스를 구현해야 한다.
 - Java beans는 POJO이다.
 - POJO는 Java beans가 아니다.
-- POJO가 Java beans보다 번주가 더 넓은 개념이다.
+- POJO가 Java beans보다 주가 더 넓은 개념이다.
 - Java beans는 더 세부적인 규약이 정해져 있고 이를 지켜야한다.
 
 <br>
