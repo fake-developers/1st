@@ -123,8 +123,11 @@
 
 ## 11주차
 
-- [[[DevOps] DevOps](./DevOps.md)
+- [[DevOps] DevOps](./DevOps.md)
 
 - [[Java] POJO](./POJO.md)
 
-  
+- [[JSP] JSTL](./JSTL.md)
+
+- [[SW] 디자인 패턴](./Design%20Pattern.md)
+
