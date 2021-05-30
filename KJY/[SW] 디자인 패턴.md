@@ -35,7 +35,7 @@
 
 #### 3-1. GoF 디자인 패턴
 
-- GoF(Gang of Fout)라 불리는 사람들
+- GoF(Gang of Four)라 불리는 사람들
   - 에리히 감마(Erich Gamma), 리차드 헬름(Richard Helm), 랄프 존슨(Ralph Johnson), 존 블리시디스(John Vissides)
   - 소프트웨어 개발 영역에서 디자인 패턴을 구체화하고 체계화한 사람들
 - **23가지의 디자인 패턴을 정리하고** 각각의 디자인 패턴을 생성(Creational), 구조(Structural), 행위(Behavioral) 3가지로 분류함
@@ -138,7 +138,7 @@
 
     - 클래스 설계 관점에서 객체의 정보를 저장할 필요가 있을 때 적용하는 디자인 패턴으로 Undo 기능을 개발할 때 사용하는 디자인 패턴
 
-    * 객체를 이전 상태로 복구시켜야 하느누 경우, '작업취소(Undo)' 요청 기능
+    * 객체를 이전 상태로 복구시켜야 하는 경우, '작업취소(Undo)' 요청 기능
 
   * **Chain of Responsibility**
 

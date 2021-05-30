@@ -234,7 +234,7 @@
 
 * 필요한 URL 인코딩을 자동으로 수행
 
-* value 속성은 매개 변수 값을 나타내고 name 속성은 매개 변수 이름을 나타냄\
+* value 속성은 매개 변수 값을 나타내고 name 속성은 매개 변수 이름을 나타냄
 
 * ```jsp
   <c:url value="/index1.jsp" var="completeURL"/>  
