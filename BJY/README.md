@@ -79,7 +79,6 @@
 ## 10주차
 
 - [x] [[SW]AWS](./AWS.md)
-
 - [x] [[WEB]AJAX](./Ajax.md)
 - [x] [[WEB]Forward와 Redirect](./Foward%26Redirect.md)
 - [x] [[WEB]JSON](JSON.md)
@@ -94,4 +93,3 @@
 - [x] [[WEB]JSTL](./Jstl.md)
 - [x] [[SW]DevOps](./DevOps.md)
 - [x] [[SW]디자인패턴](./디자인패턴.md)
-
