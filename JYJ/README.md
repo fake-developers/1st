@@ -134,7 +134,7 @@
 ## 11주차
 
 - [x] [[SW]DevOps](./DevOps.md)
-- [ ] [[Web]JSTL](./JSTL.md)
+- [x] [[Web]JSTL](./JSTL.md)
 - [x] [[Java]POJO](./POJO.md)
-- [ ] [[SW]디자인 패턴](./DesignPattern.md)
+- [x] [[SW]디자인 패턴](./DesignPattern.md)
 
