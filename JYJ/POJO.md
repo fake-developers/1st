@@ -2,7 +2,7 @@
 
 :writing_hand: *Assembled by Yunju Jang*
 
-<!--🤝*Contributors : JeongHea Shin, JiYe Bae*-->
+*Contributors : JeongHea Shin*
 
 <hr>
 
@@ -142,7 +142,7 @@
 - <b>POJO 프레임워크</b>
 
   - Spring은 POJO를 이용한 엔터프라이즈 애플리케이션 개발을 목적으로 하는 프레임워크이다.
-  - 엔터프라이즈 애플리케이션 개발 중 하나의 예를 들면 DB 이용 기술이 있따.
+  - 엔터프라이즈 애플리케이션 개발 중 하나의 예를 들면 DB 이용 기술이 있다.
   - DB 이용 기술에 관련된 코드를 객체지향적인 POJO를 기반으로 깔끔하게 구현할 수 있다.
 
   <img src="C:\Users\rlo3o\Desktop\장윤주\취업준비\Git\1st\JYJ\resources\pojo.png" width='400px' align='center'>
