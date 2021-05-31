@@ -71,3 +71,27 @@
 - [x] [[WEB]GET & POST](./GET%20%26%20POST.md)
 - [x] [[WEB]Spring MVC](./Spring%20MVC.md)
 - [x] [[WEB]UI & UX](./UI%20%26%20UX.md)
+
+<br/>
+
+<br/>
+
+## 10주차
+
+- [x] [[SW]AWS](./AWS.md)
+
+- [x] [[WEB]AJAX](./Ajax.md)
+- [x] [[WEB]Forward와 Redirect](./Foward%26Redirect.md)
+- [x] [[WEB]JSON](JSON.md)
+
+<br/>
+
+<br/>
+
+## 11주차
+
+- [x] [[JAVA]POJO](./POJO.md)
+- [x] [[WEB]JSTL](./Jstl.md)
+- [x] [[SW]DevOps](./DevOps.md)
+- [x] [[SW]디자인패턴](./디자인패턴.md)
+
