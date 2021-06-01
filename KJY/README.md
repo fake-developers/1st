@@ -112,3 +112,13 @@
 - [x] [[JAVASCRIPT] JSON](./%5BJAVASCRIPT%5D%20JSON.md)
 
 <br/>
+
+## 11주차
+
+- [x] [[WEB] JSTL](./%5BWEB%5D%20JSTL.md)
+- [x] [[SW] 디자인 패턴](./%5BSW%5D%20디자인%20패턴.md)
+- [x] [[SW] DevOps](./%5BSW%5D%20DevOps.md)
+- [x] [[JAVA] POJO](./%5BJAVA%5D%20POJO.md)
+
+<br/>
+
