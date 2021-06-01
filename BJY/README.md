@@ -83,3 +83,13 @@
 - [x] [[WEB]Forward와 Redirect](./Foward%26Redirect.md)
 - [x] [[WEB]JSON](JSON.md)
 
+<br/>
+
+<br/>
+
+## 11주차
+
+- [x] [[JAVA]POJO](./POJO.md)
+- [x] [[WEB]JSTL](./Jstl.md)
+- [x] [[SW]DevOps](./DevOps.md)
+- [x] [[SW]디자인패턴](./디자인패턴.md)
