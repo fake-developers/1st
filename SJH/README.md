@@ -116,7 +116,18 @@
 
 - [[JavaScript] AJAX](./AJAX.md)
 - [[JavaScript] JSON](./JSON.md)
-
 - [[AWS]AWS](/AWS.md)
 - [[Web]Forward와Redirect](/Forward&Redirect.md)
+
+<br>
+
+## 11주차
+
+- [[DevOps] DevOps](./DevOps.md)
+
+- [[Java] POJO](./POJO.md)
+
+- [[JSP] JSTL](./JSTL.md)
+
+- [[SW] 디자인 패턴](./Design%20Pattern.md)
 
