@@ -144,5 +144,5 @@
 
 ## 12주차
 
-- [x] [[Algorithm]DFS와 BFS](./DFSandBFS.md)
+- [x] [[Algorithm]DFS와 BFS](./BFSandDFS.md)
 
