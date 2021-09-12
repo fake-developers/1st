@@ -128,5 +128,12 @@
 
 <참조>
 
-- <https://github.com/fake-developers/1st/blob/JYJ-02/JYJ/HttpAndHttps.md>
-- <https://github.com/fake-developers/1st/blob/KJY-02/KJY/%5BNETWORK%5D%20HTTP%EC%99%80%20HTTPS.md>
+- [HTTP와 HTTPS의 5가지 차이점 정리](https://whatismarketing.tistory.com/61)
+
+- [HTTP VS HTTPS 차이, 알면 사이트의 레벨이 보인다.](http://blog.wishket.com/http-vs-https-%EC%B0%A8%EC%9D%B4-%EC%95%8C%EB%A9%B4-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%9D%98-%EB%A0%88%EB%B2%A8%EC%9D%B4-%EB%B3%B4%EC%9D%B8%EB%8B%A4/)
+
+- [[Web] HTTP와 HTTPS 및 차이점](https://mangkyu.tistory.com/98)
+
+- [[네트워크]HTTP와 HTTPS의 차이점 그리고 동작 방식](https://devdy.tistory.com/14)
+
+- [Http와 Https 이해와 차이점 그리고 오해(?)](https://jeong-pro.tistory.com/89)
